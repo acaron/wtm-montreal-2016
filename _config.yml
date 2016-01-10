@@ -1,6 +1,6 @@
 # Site settings
 languages: ['en', 'fr']
-exclude_from_localizations: ['js', 'images', 'css', 'fonts']
+exclude_from_localizations: ['assets']
 timezone: America/Montreal
 
 title: Your awesome title
