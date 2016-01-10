@@ -13,3 +13,5 @@ url: 'http://www.wtm-montreal.com'
 permalink: pretty
 markdown: kramdown
 exclude: ['LICENSE']
+gems:
+- 'jekyll/multiple/languages/plugin'
