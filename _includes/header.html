@@ -13,13 +13,13 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
+      {% if site.lang == "fr" %}
+        {% capture link1 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+        <a class="page-link" href="{{ link1 }}" >{% t global.english %}</a>
+      {% else if site.lang == "en" %}
+        {% capture link2 %}{{ site.baseurl_root }}fr{{ page.url }}{% endcapture %}
+        <a class="page-link" href="{{ link2 }}" >{% t global.french %}</a>
+      {% endif %}
     </nav>
 
   </div>
