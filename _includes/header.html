@@ -1,27 +1,46 @@
-<header class="site-header">
+<header id="header" class="site-header" data-stellar-background-ratio="0.5">
 
-  <div class="wrapper">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{% t site.title %}</a>
+            <a class="navbar-brand" href="#header">
+                <img src="/assets/images/logo-women-techmakers.svg" alt="" width="180">
+            </a>
+        </div>
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
+        <div id="navbar-menu" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#venue">Venue</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="">Buy Tickets</a></li>
+                <li class="nav-lang">
+                    <a href="#lang"><span class="visible-xs">Français</span><span class="hidden-xs">FR</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-      {% if site.lang == "fr" %}
-        {% capture link1 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-        <a class="page-link" href="{{ link1 }}" >{% t global.english %}</a>
-      {% else if site.lang == "en" %}
-        {% capture link2 %}{{ site.baseurl_root }}fr{{ page.url }}{% endcapture %}
-        <a class="page-link" href="{{ link2 }}" >{% t global.french %}</a>
-      {% endif %}
-    </nav>
+    <div class="container container--600 text-center">
+        <h2>What is this</h2>
 
-  </div>
+        <p>
+            Women Techmakers est un programme créé par <strong>Google</strong> afin de souligner le talent des femmes dans le milieu de
+            l’informatique. Cette année, nous avons décidé d’organiser la première édition montréalaise dans le cadre de
+            l’évènement spécial <strong>« The Women Techmakers Global Event Series Celebrating International Women's Day »</strong>, qui a
+            connu plus de 200 événements mondiaux dans 52 pays. Cet événement permet de célébrer la Journée internationale
+            de la femme, de promouvoir le talent et la passion, d’augmenter la visibilité de la communauté montréalaise et
+            de permettre la création d’un réseau de contacts dans l’industrie tout en mettant à l’honneur les femmes dans
+            l’industrie technologique.
+        </p>
+    </div>
 
 </header>

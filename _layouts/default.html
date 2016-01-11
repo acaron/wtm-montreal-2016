@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
+    {% include head.html %}
 
-  {% include head.html %}
+    <body>
+        {% include header.html %}
 
-  <body>
+        <div class="page-content">
+            {{ content }}
+        </div>
 
-    {% include header.html %}
+        {% include footer.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+        <script type="text/javascript" src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl_root }}"></script>
+        <script type="text/javascript" src="{{ "/assets/js/jquery.easing.min.js" | prepend: site.baseurl_root }}"></script>
+        <script type="text/javascript" src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl_root }}"></script>
+        <script type="text/javascript" src="{{ "/assets/js/jquery.stellar.min.js" | prepend: site.baseurl_root }}"></script>
+        <script type="text/javascript" src="{{ "/assets/js/app.js" | prepend: site.baseurl_root }}"></script>
+    </body>
 </html>

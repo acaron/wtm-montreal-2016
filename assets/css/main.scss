@@ -11,11 +11,13 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+//$spacing-unit:     30px;
+$spacing-unit:     75px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:         #111111;
+$background-color:   #fdfdfd;
+$brand-color:        #27B9A2;
+$brand-second-color: #557DBF;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -43,7 +45,14 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+        "variables",
+        "bootstrap/bootstrap",
+        "layouts/base",
+        "layouts/header",
+        "layouts/navbar",
+        "layouts/sections",
+        "layouts/footer",
+        "components/buttons"
+        //"layout",
+        //"syntax-highlighting"
 ;

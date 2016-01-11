@@ -1,0 +1,66 @@
+.site-header {
+  background-image: url("/assets/images/bg-header.jpg");
+  background-size: cover;
+  min-height: 450px;
+  position: relative;
+
+  .container-fluid {
+    position: relative;
+    z-index: 1;
+  }
+
+  .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -35%);
+    z-index: 1;
+
+    &.container--600 {
+      max-width: 600px;
+    }
+
+    h2 {
+      text-align: center;
+
+      &:after {
+        background: $brand-color;
+        content: "";
+        display: block;
+        width: 35px;
+        height: 3px;
+        margin: 10px auto 0;
+      }
+    }
+
+    p {
+      font-size: 0.8em;
+    }
+  }
+
+  &:before {
+    background: linear-gradient(45deg, #4295d1 0%, #27b9a2 100%);
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    opacity: 0.65;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+
+  &:after {
+    background: #FFFFFF;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+}
