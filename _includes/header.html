@@ -1,6 +1,5 @@
 <header id="header" class="site-header" data-stellar-background-ratio="0.5">
-
-    <div class="container-fluid">
+    <div class="container-fluid fixed">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -9,19 +8,20 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#header">
-                <img src="/assets/images/logo-women-techmakers.svg" alt="" width="180">
+            <a class="navbar-brand invisible" href="#header">
+                <img src="/assets/images/logo.svg" alt="" width="50">
             </a>
         </div>
 
         <div id="navbar-menu" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">About</a></li>
                 <li><a href="#speakers">Speakers</a></li>
                 <li><a href="#venue">Venue</a></li>
                 <li><a href="#schedule">Schedule</a></li>
                 <li><a href="#sponsors">Sponsors</a></li>
-                <li><a href="#">Buy Tickets</a></li>
+                <li>
+                    <a href="#" class="btn btn-default">Buy Tickets</a>
+                </li>
                 <!-- <li class="nav-lang">
                     <a href="#lang"><span class="visible-xs">Français</span><span class="hidden-xs">FR</span></a>
                 </li> -->
@@ -29,11 +29,13 @@
         </div>
     </div>
 
-    <div class="container container--600 text-center">
-        <h2>
+    <div class="container text-center">
+        <img src="/assets/images/logo.svg" alt="Google's Women Techmakers 2016" width="180" class="logo-signature">
+
+        <h1>
             Google's Women Techmakers 2016<br>
             <small>March 12th, 2016 at École de technologie supérieure</small>
-        </h2>
+        </h1>
 
         <p>
             Women Techmakers is a program created by <strong>Google</strong> to celebrate International Women's Day and to highlight the talent of women in technology. This year, we decided to organize the first edition in Montreal as part of the special event <strong>"The Women Techmakers Global Event Series Celebrating International Women's Day"</strong> (WTM IWD), which has seen more than 200 global events across 52 countries. This community building initiative promotes talented and passionate women and increases the visibility of the Montreal tech community while honoring women in technology.
@@ -42,5 +44,4 @@
         <a href="#" class="btn btn-default btn-lg">Buy Tickets</a>
         <a href="{{ "/assets/files/call-for-papers-en.pdf" | prepend: site.baseurl_root }}" class="btn btn-default btn-lg">Be a Speaker</a>
     </div>
-
 </header>

@@ -1,7 +1,19 @@
 .navbar-nav {
+  margin-top: 15px;
+
   li {
-    a {
-      line-height: 45px;
+    &:not(:last-child) {
+      a {
+        color: #FFFFFF;
+        line-height: 25px;
+        position: relative;
+        transition: opacity 0.25s ease;
+
+        &:hover {
+          background: none;
+          opacity: 0.75;
+        }
+      }
     }
   }
 }
