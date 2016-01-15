@@ -48,4 +48,6 @@ jQuery(document).ready(function($) {
             easing: 'easeOutBack'
         });
     }
+
+    $('[data-toggle="tooltip"]').tooltip()
 });
