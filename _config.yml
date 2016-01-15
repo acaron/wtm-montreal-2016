@@ -12,5 +12,5 @@ url: 'http://www.wtm-montreal.com'
 # Build settings
 permalink: pretty
 markdown: kramdown
-exclude: ['LICENSE', 'CNAME']
+exclude: ['LICENSE']
 gems: ['jekyll/multiple/languages/plugin']
