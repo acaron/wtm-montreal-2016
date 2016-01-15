@@ -2,6 +2,10 @@
   margin-top: 15px;
 
   li {
+    a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
     &:not(:last-child) {
       a {
         color: #FFFFFF;

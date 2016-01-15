@@ -116,4 +116,13 @@ section {
       opacity: 0.75;
     }
   }
+
+  &#subscription {
+    .form-control {
+      border: 2px solid $brand-primary;
+      border-right: none;
+      padding-top: 16px;
+      padding-bottom: 15px;
+    }
+  }
 }

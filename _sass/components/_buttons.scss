@@ -5,9 +5,15 @@
 
   &.btn-primary {
     background: none;
+    color: $brand-primary;
+
+    &:active, &:link, &:visited {
+      background: none;
+    }
 
     &:hover {
       background-color: $brand-primary;
+      color: #FFFFFF;
     }
   }
 
@@ -15,6 +21,12 @@
     background: none;
     border-color: #FFFFFF;
     color: #FFFFFF;
+
+    &:active, &:link, &:visited {
+      background: none;
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+    }
 
     &:hover {
       color: $brand-primary;
