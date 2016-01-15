@@ -13,6 +13,13 @@ section {
     }
   }
 
+  h4 {
+    &.sponsors-platinum {
+      text-transform: uppercase;
+      color: #A0B8C7;
+    }
+  }
+
   h2 {
     text-align: center;
 
