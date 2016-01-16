@@ -10,6 +10,12 @@ dl, dd, ol, ul, figure {
 
 
 
+*:focus {
+  outline: none!important;
+}
+
+
+
 /**
  * Basic styling
  */
