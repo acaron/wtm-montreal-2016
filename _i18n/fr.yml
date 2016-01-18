@@ -5,3 +5,50 @@ global:
   description: Women Techmakers est un programme créé par Google afin de célébrer la Journée internationale de la femme et de souligner le talent des femmes dans le milieu de l’informatique.
 index:
   title: International Women's Day Global Event Series 2016 - Connect. Create. Celebrate.
+  comming: À venir
+header: 
+  about: "À propo de WTM"
+  tickets: Acheter des billets
+  be_speaker: Être conférencière
+  title_text: "Women Techmakers propulsé par GDG Montreal présente"
+  title_event: International Women's Day Global Event Series
+  title_theme: Connecter. Créer. Célébrer.
+  wtm_desc_1: "Women Techmakers est un programme créé par"
+  wtm_desc_2: "afin de célébrer la Journée internationale de la femme et de souligner le talent des femmes dans le milieu de l’informatique. Cette année, nous avons décidé d'organiser la première édition à Montréal dans le cadre de l'événement"
+  wtm_desc_3: " qui a connu plus de 200 événements mondiaux dans 52 pays. Cet événement permet de célébrer la Journée internationale de la femme, de promouvoir le talent et la passion, d’augmenter la visibilité de la communauté montréalaise et de permettre la création d’un réseau de contacts dans l’industrie tout en mettant à l’honneur les femmes dans l’industrie technologique."
+speakers:
+  title: Conférencières
+  be_speaker: "Vous voulez faire une conférence? Regardez notre"
+  be_speaker_2: appel de conférence
+  text_desc: "Plus à venir, nous vous promettons qu'elles vont être inspirantes!"
+  learn_more: En savoir plus
+  nancy:
+    small_desc: "Fondatrice de Ladies Learning Code à Montreal et développeuse à Dynamo"
+    bio: "Nancy Naluz une développeuse web, gestionnaire de communauté et une conférencière. Elle est la fondatrice et l'une des femmes en charge du chapitre à Montréal de Ladies Learning Code, une organisation dirigé par des femmes à but non lucratif qui offre des ateliers pour les femmes( et pour les hommes), pour apprendre la programmation et d'autres compétences techniques dans un environnement social et collaboratif. Elle est aussi une front-end web développeuse chez Dynamo, une agence de design spécialisée dans l'élaboration des expériences numériques pour les startups et les organisations innovantes. Elle est une mentor active dans la communauté dans divers événements technologique tel que Startup Weekend Montreal, WordCamp, et AngelHack. Ses passions se trouvent dans les technologies innovantes, l'accessibilité, l'alphabétisation numérique, conception de UX et dans le partage de son enthousiasme pour l'apprentissage de la programmation."
+  rita:
+    small_desc: "Développeuse logiciel à Shopify"
+    bio: "Issue d'une formation en musique classique et la littérature anglaise, une carrière dans la technologie est quelque chose que je n'avais même pas envisagé jusqu'au dernier semestre de ma deuxième année à l'université, quand j'ai pris sur un coup de tête, mon premier cours d'introduction aux sciences informatiques. Ce fut tout ce qu'il m'a fallu pour avoir la piqure. Je me suis immédiatement transféré dans le programme de sciences informatiques et j'ai commencé à aller à chaque Hackathon où je pouvais rencontrer un tas de gens vraiment capables, de gens motivés qui m'ont aidé à apprendre à coder. Après avoir obtenu mon diplôme, je commencé à travailler à Shopify comme développeur logiciel. Quand je ne suis pas assise devant mon ordinateur à programmer, je suis assise devant mon ordinateur à jouer aux jeux vidéos, à jouer du piano, à lire ou à passer progressivement  à travers les sélections impressionnantes des brasseries artisanales de Montréal."
+venue:
+  title: "Lieu"
+  adr: "1100 Notre-Dame O, Montréal, QC H3C 1K3"
+  desc: "est une école d'ingénieurs publique à Montréal, Québec, Canada. Fondée en 1974, l'École de technologie supérieure fait partie du réseau de l'Université du Québec et offre des programmes d’études en génie de 1er, 2e et 3e cycles."
+  itinerary: Itinéraire
+schedule:
+  title: Horaire
+  date: "12 Mars" 
+  dateAtt: " "
+  fullDate: 2016 de 8:00 AM à 5:00 PM
+  text_1: "Nous allons afficher l'horaire lorsque toutes les conférencières seront confirmées. Des conférences et des codelabs intéressant seront présenté bientôt."
+  lunch: "Déjeuner et des collations seront servis et n'oubliez pas d'apporter votre ordinateur portable afin de participer à nos codelabs!"
+sponsors: 
+  title: Commanditaires
+  desc_1: "Vous voulez être commanditaire? Regardez "
+  desc_2: proposition de commandite
+tickets:
+  text_1: Les billets vont être en vente à partir du 1 
+  text_sup: er
+  text_2: " février, 2016. 18+ seulement."
+subscription:
+  title: Abonnez-vous à notre liste de diffusion
+  text: Nous vous tiendrons au courant des dernières nouvelles!
+  subscribe: Abonnez-vous

@@ -1,8 +1,8 @@
 <section id="subscription" class="section section--theme-1">
     <div class="container text-center">
-        <h2>Subscribe to our mailing list</h2>
+        <h2>{% t subscription.title %}</h2>
 
-        <p>We will keep you updated about the latest news!</p>
+        <p>{% t subscription.text %}</p>
 
         <form action="//wtm-montreal.us12.list-manage.com/subscribe/post?u=d1707279f0dde7f68a6f98ab0&amp;id=35def8d91c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <input type="hidden" name="b_d1707279f0dde7f68a6f98ab0_35def8d91c" tabindex="-1" value="">
@@ -12,7 +12,7 @@
                     <input type="email" value="" name="EMAIL" class="required form-control" id="mce-EMAIL">
 
                     <div class="input-group-btn">
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                        <input type="submit" value="{% t subscription.subscribe %}" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
                     </div>
                 </div>
             </div>

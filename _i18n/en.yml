@@ -5,3 +5,50 @@ global:
   description: Women Techmakers is a program created by Google to celebrate International Women's Day and to highlight the talent of women in technology.
 index:
   title: International Women's Day Global Event Series 2016 - Connect. Create. Celebrate.
+  comming: Comming soon
+header: 
+  about: "About WTM"
+  tickets: Buy Tickets
+  be_speaker: Be a Speaker
+  title_text: "Women Techmakers powered by GDG Montreal presents"
+  title_event: International Women's Day Global Event Series
+  title_theme: Connect. Create. Celebrate.
+  wtm_desc_1: "Women Techmakers is a program created by"
+  wtm_desc_2: "to celebrate International Women's Day and to highlight the talent of women in technology. This year, we decided to organize the first edition in Montreal as part of the special event"
+  wtm_desc_3: " which has seen more than 200 global events across 52 countries. This community building initiative promotes talented and passionate women and increases the visibility of the Montreal tech community while honoring women in technology."
+speakers:
+  title: Speakers
+  be_speaker: Want to be a speaker? Check out our
+  be_speaker_2: call for papers
+  text_desc: "More coming soon, but we promise that they will be awesome. Stay tuned!"
+  learn_more: Learn more
+  nancy:
+    small_desc: "Founder of Ladies Learning Code in Montreal and developer at Dynamo"
+    bio: "Nancy Naluz is a web developer, community manager and speaker. She is the founder and one of the Montréal Chapter Leads of Ladies Learning Code, a women-run, not-for-profit organization that offers workshops for women (and men) to learn programming and other technical skills in a social and collaborative environment. She is also a front-end web developer at Dynamo, a design agency specializing in crafting digital experiences for startups and innovative organizations. She is an active community mentor at various local tech events such as Startup Weekend Montreal, WordCamp, and AngelHack. Her passions lie in innovative technology, accessibility, digital literacy, UX design and sharing her enthusiasm for learning code."
+  rita:
+    small_desc: "Software Developer at Shopify"
+    bio: "Coming from a background in classical music and English literature, a career in tech isn't something I've even considered until the last semester of my second year in university, when I took my very first introductory computer science class on a whim. That was all it took to get me hooked. I immediately transferred into computer science and began going to every Hackathon that would take me where I met a bunch of really capable, motivated people that helped me learn how to code. After I graduated, I began working at Shopify as a Software Developer. When I'm not sitting in front of a computer programming, I'm sitting in front of a computer gaming, playing the piano, reading, or slowly working my way through Montreal's impressive selection of craft breweries."
+venue:
+  title: "Venue"
+  adr: "1100 Notre-Dame W, Montreal, QC H3C 1K3"
+  desc: "is a public engineering school in Montreal, Quebec, Canada. Founded in 1974, the École de technologie supérieure is part of the Université du Québec system and offers undergraduate, graduate and doctoral programs."
+  itinerary: Itinerary
+schedule:
+  schedule: Schedule
+  date: March 12
+  dateAtt: "th"
+  fullDate: ", 2016 from 8:00 AM to 5:00 PM"
+  text_1: "We will display the schedule when the call for papers is over! Awesome talk subjects and codelabs are coming soon."
+  lunch: "Lunch and snacks will be served and don't forget to bring your laptop to participate to our codelabs!"
+sponsors: 
+  title: Sponsors
+  desc_1: "Want to be a sponsor? Check out our "
+  desc_2: sponsorship proposal
+tickets:
+  text_1: Tickets will go on sale February 
+  text_sup: st
+  text_2: ", 2016. 18+ only."
+subscription:
+  title: Subscribe to our mailing list
+  text: We will keep you updated about the latest news!
+  subscribe: Subscribe

@@ -15,13 +15,13 @@
 
         <div id="navbar-menu" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#speakers">Speakers</a></li>
-                <li><a href="#venue">Venue</a></li>
-                <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#speakers">{% t speakers.title %}</a></li>
+                <li><a href="#venue">{% t venue.title %}</a></li>
+                <li><a href="#schedule">{% t schedule.title %}</a></li>
+                <li><a href="#sponsors">{% t sponsors.title %}</a></li>
                 <li>
-                    <a href="#" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Coming soon">
-                        Buy Tickets
+                    <a href="#" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="{% t index.comming %}">
+                        {% t header.tickets %}
                     </a>
                 </li>
                 <!-- <li class="nav-lang">
@@ -35,37 +35,31 @@
         <img src="/assets/images/logo.svg" alt="Google's Women Techmakers 2016" class="logo-signature">
 
         <h1>
-            <small>Women Techmakers powered by GDG Montreal presents</small><br>
-            International Women's Day Global Event Series<br>
-            Connect. Create. Celebrate.<br>
+            <small>{% t header.title_text %}</small><br>
+            {% t header.title_event %}<br>
+           {% t header.title_theme %}<br>
             <small>#WomenTechmakers</small>
         </h1>
 
         <p class="hidden-xs">
-            Women Techmakers is a program created by <strong>Google</strong> to celebrate International Women's Day and
-            to highlight the talent of women in technology. This year, we decided to organize the first edition in
-            Montreal as part of the special event <strong>"The Women Techmakers Global Event Series Celebrating
-            International Women's Day"</strong> (WTM IWD), which has seen more than 200 global events across 52
-            countries. This community building initiative promotes talented and passionate women and increases the
-            visibility of the Montreal tech community while honoring women in technology.
+            {% t header.wtm_desc_1 %}
+            <strong>Google</strong> {% t header.wtm_desc_2 %}<strong>"The Women Techmakers Global Event Series Celebrating
+            International Women's Day"</strong> (WTM IWD),{% t header.wtm_desc_3 %}
         </p>
 
-        <a href="#" class="btn btn-default btn-lg" data-toggle="tooltip" data-placement="top" title="Coming soon">Buy Tickets</a>&nbsp;
-        <a href="{{ "/assets/files/call-for-papers-en.pdf" | prepend: site.baseurl_root }}" class="btn btn-default btn-lg">Be a Speaker</a>
+        <a href="#" class="btn btn-default btn-lg" data-toggle="tooltip" data-placement="top" title="Coming soon">{% t header.tickets %}</a>&nbsp;
+        <a href="{{ "/assets/files/call-for-papers-en.pdf" | prepend: site.baseurl_root }}" class="btn btn-default btn-lg">{% t header.be_speaker %}</a>
     </div>
 </header>
 
 <section id="about" class="visible-xs section section--theme-5">
     <div class="container container--600 text-center">
-        <h2>About GWT</h2>
+        <h2>{% t header.about %}</h2>
 
         <p>
-            Women Techmakers is a program created by <strong>Google</strong> to celebrate International Women's Day and
-            to highlight the talent of women in technology. This year, we decided to organize the first edition in
-            Montreal as part of the special event <strong>"The Women Techmakers Global Event Series Celebrating
-            International Women's Day"</strong> (WTM IWD), which has seen more than 200 global events across 52
-            countries. This community building initiative promotes talented and passionate women and increases the
-            visibility of the Montreal tech community while honoring women in technology.
+           {% t header.wtm_desc_1 %}
+            <strong>Google</strong> {% t header.wtm_desc_2 %}<strong>"The Women Techmakers Global Event Series Celebrating
+            International Women's Day"</strong> (WTM IWD),{% t header.wtm_desc_3 %}
         </p>
     </div>
 </section>

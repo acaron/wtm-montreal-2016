@@ -1,10 +1,10 @@
 <section id="speakers" class="section section--theme-3">
   <div class="container text-center">
-    <h2>Speakers</h2>
+    <h2>{% t speakers.title %}</h2>
 
-    <h3>Want to be a speaker? Check out our <a href="{{ "/assets/files/call-for-papers-en.pdf" | prepend: site.baseurl_root }}">call for papers</a>.</h3>
+    <h3>{% t speakers.be_speaker %} <a href="{{ "/assets/files/call-for-papers-en.pdf" | prepend: site.baseurl_root }}">{% t speakers.be_speaker_2 %}</a>.</h3>
 
-    <p>More coming soon, but we promise that they will be awesome. Stay tuned!</p>
+    <p>{% t speakers.text_desc %}</p>
 
     <div class="row">
       <div class="col-sm-3 text-center card">
@@ -12,7 +12,7 @@
 
         <h3>Nancy Naluz</h3>
 
-        <h4>Founder of Ladies Learning Code in Montreal and developer at Dynamo</h4>
+        <h4>{% t speakers.nancy.small_desc %}</h4>
       </div>
 
       <div class="col-sm-3 text-center card">
@@ -20,20 +20,20 @@
 
         <h3>Rita Lu</h3>
 
-        <h4>Software Developer at Shopify</h4>
+        <h4>{% t speakers.rita.small_desc %}</h4>
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-3 text-center card">
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#speakers-nancy-naluz">
-          Learn more
+          {% t speakers.learn_more %}
         </button>
       </div>
 
       <div class="col-sm-3 text-center card">
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#speakers-rita-lu">
-          Learn more
+         {% t speakers.learn_more %}
         </button>
       </div>
     </div>
@@ -48,11 +48,9 @@
         <div class="modal-body text-center">
           <h3>Nancy Naluz</h3>
 
-          <h4>Founder of Ladies Learning Code in Montreal and developer at Dynamo</h4>
+          <h4>{% t speakers.nancy.small_desc %}</h4>
 
-          <p>
-            Nancy Naluz is a web developer, community manager and speaker. She is the founder and one of the Montréal Chapter Leads of Ladies Learning Code, a women-run, not-for-profit organization that offers workshops for women (and men) to learn programming and other technical skills in a social and collaborative environment. She is also a front-end web developer at Dynamo, a design agency specializing in crafting digital experiences for startups and innovative organizations. She is an active community mentor at various local tech events such as Startup Weekend Montreal, WordCamp, and AngelHack. Her passions lie in innovative technology, accessibility, digital literacy, UX design and sharing her enthusiasm for learning code.
-          </p>
+          <p>{% t speakers.nancy.bio %}</p>
         </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
@@ -67,11 +65,9 @@
         <div class="modal-body text-center">
           <h3>Rita Lu</h3>
 
-          <h4>Software Developer at Shopify</h4>
+          <h4>{% t speakers.rita.small_desc %}</h4>
 
-          <p>
-            Coming from a background in classical music and English literature, a career in tech isn't something I've even considered until the last semester of my second year in university, when I took my very first introductory computer science class on a whim. That was all it took to get me hooked. I immediately transferred into computer science and began going to every Hackathon that would take me where I met a bunch of really capable, motivated people that helped me learn how to code. After I graduated, I began working at Shopify as a Software Developer. When I'm not sitting in front of a computer programming, I'm sitting in front of a computer gaming, playing the piano, reading, or slowly working my way through Montreal's impressive selection of craft breweries.
-          </p>
+          <p>{% t speakers.rita.bio %}</p>
         </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
