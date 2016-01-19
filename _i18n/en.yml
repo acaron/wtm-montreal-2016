@@ -22,11 +22,14 @@ speakers:
   be_speaker_2: call for papers
   text_desc: "More coming soon, but we promise that they will be awesome. Stay tuned!"
   learn_more: Learn more
-  nancy:
-    small_desc: "Founder of Ladies Learning Code in Montreal and developer at Dynamo"
+speakers_collection:
+  - key: nancy-naluz
+    name: Nancy Naluz
+    title: Founder of Ladies Learning Code in Montreal and developer at Dynamo
     bio: "Nancy Naluz is a web developer, community manager and speaker. She is the founder and one of the Montréal Chapter Leads of Ladies Learning Code, a women-run, not-for-profit organization that offers workshops for women (and men) to learn programming and other technical skills in a social and collaborative environment. She is also a front-end web developer at Dynamo, a design agency specializing in crafting digital experiences for startups and innovative organizations. She is an active community mentor at various local tech events such as Startup Weekend Montreal, WordCamp, and AngelHack. Her passions lie in innovative technology, accessibility, digital literacy, UX design and sharing her enthusiasm for learning code."
-  rita:
-    small_desc: "Software Developer at Shopify"
+  - key: rita-lu
+    name: Rita Lu
+    title: Software Developer at Shopify
     bio: "Coming from a background in classical music and English literature, a career in tech isn't something I've even considered until the last semester of my second year in university, when I took my very first introductory computer science class on a whim. That was all it took to get me hooked. I immediately transferred into computer science and began going to every Hackathon that would take me where I met a bunch of really capable, motivated people that helped me learn how to code. After I graduated, I began working at Shopify as a Software Developer. When I'm not sitting in front of a computer programming, I'm sitting in front of a computer gaming, playing the piano, reading, or slowly working my way through Montreal's impressive selection of craft breweries."
 venue:
   title: "Venue"

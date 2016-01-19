@@ -7,69 +7,44 @@
     <p>{% t speakers.text_desc %}</p>
 
     <div class="row">
-      <div class="col-sm-3 text-center card">
-        <!-- <img src="https://placeholdit.imgix.net/~text?txtsize=22&txt=150%C3%97150&w=150&h=150" class="img-circle" alt=""> -->
+      {% for speaker in site.langs[site.lang]['speakers_collection'] limit: 4 %}
+        <div class="col-sm-3 text-center card">
+          <!-- <img src="https://placeholdit.imgix.net/~text?txtsize=22&txt=150%C3%97150&w=150&h=150" class="img-circle" alt=""> -->
 
-        <h3>Nancy Naluz</h3>
+          <h3>{{ speaker.name }}</h3>
 
-        <h4>{% t speakers.nancy.small_desc %}</h4>
-      </div>
-
-      <div class="col-sm-3 text-center card">
-        <!-- <img src="https://placeholdit.imgix.net/~text?txtsize=22&txt=150%C3%97150&w=150&h=150" class="img-circle" alt=""> -->
-
-        <h3>Rita Lu</h3>
-
-        <h4>{% t speakers.rita.small_desc %}</h4>
-      </div>
+          <h4>{{ speaker.title }}</h4>
+        </div>
+      {% endfor %}
     </div>
 
     <div class="row">
-      <div class="col-sm-3 text-center card">
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#speakers-nancy-naluz">
-          {% t speakers.learn_more %}
-        </button>
-      </div>
-
-      <div class="col-sm-3 text-center card">
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#speakers-rita-lu">
-         {% t speakers.learn_more %}
-        </button>
-      </div>
+      {% for speaker in site.langs[site.lang]['speakers_collection'] limit: 4 %}
+        <div class="col-sm-3 text-center card">
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#speakers-{{ speaker.key }}">
+            {% t speakers.learn_more %}
+          </button>
+        </div>
+      {% endfor %}
     </div>
   </div>
 
-  <div class="modal fade" id="speakers-nancy-naluz">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        </div>
-        <div class="modal-body text-center">
-          <h3>Nancy Naluz</h3>
+  {% for speaker in site.langs[site.lang]['speakers_collection'] %}
+    <div class="modal fade" id="speakers-{{ speaker.key }}">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body text-center">
+            <h3>{{ speaker.name }}</h3>
 
-          <h4>{% t speakers.nancy.small_desc %}</h4>
+            <h4>{{ speaker.title }}</h4>
 
-          <p>{% t speakers.nancy.bio %}</p>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div class="modal fade" id="speakers-rita-lu">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        </div>
-        <div class="modal-body text-center">
-          <h3>Rita Lu</h3>
-
-          <h4>{% t speakers.rita.small_desc %}</h4>
-
-          <p>{% t speakers.rita.bio %}</p>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
+            <p>{{ speaker.bio }}</p>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+  {% endfor %}
 </section>

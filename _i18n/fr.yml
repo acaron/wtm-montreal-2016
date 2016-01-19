@@ -7,26 +7,29 @@ index:
   title: International Women's Day Global Event Series 2016 - Connect. Create. Celebrate.
   comming: À venir
 header: 
-  about: "À propo de WTM"
+  about: À propos de WTM
   tickets: Acheter des billets
-  be_speaker: Être conférencière
-  title_text: "Women Techmakers propulsé par GDG Montreal présente"
+  be_speaker: Être conférencier
+  title_text: Women Techmakers propulsé par GDG Montreal présente
   title_event: International Women's Day Global Event Series
   title_theme: Connecter. Créer. Célébrer.
-  wtm_desc_1: "Women Techmakers est un programme créé par"
+  wtm_desc_1: Women Techmakers est un programme créé par
   wtm_desc_2: "afin de célébrer la Journée internationale de la femme et de souligner le talent des femmes dans le milieu de l’informatique. Cette année, nous avons décidé d'organiser la première édition à Montréal dans le cadre de l'événement"
   wtm_desc_3: " qui a connu plus de 200 événements mondiaux dans 52 pays. Cet événement permet de célébrer la Journée internationale de la femme, de promouvoir le talent et la passion, d’augmenter la visibilité de la communauté montréalaise et de permettre la création d’un réseau de contacts dans l’industrie tout en mettant à l’honneur les femmes dans l’industrie technologique."
 speakers:
   title: Conférencières
   be_speaker: "Vous voulez faire une conférence? Regardez notre"
   be_speaker_2: appel de conférence
-  text_desc: "Plus à venir, nous vous promettons qu'elles vont être inspirantes!"
+  text_desc: "Plus à venir, nous vous promettons qu'elles vont être inspirantes !"
   learn_more: En savoir plus
-  nancy:
-    small_desc: "Fondatrice de Ladies Learning Code à Montreal et développeuse à Dynamo"
-    bio: "Nancy Naluz une développeuse web, gestionnaire de communauté et une conférencière. Elle est la fondatrice et l'une des femmes en charge du chapitre à Montréal de Ladies Learning Code, une organisation, dirigée par des femmes, à but non lucratif qui offre des ateliers pour les femmes( et pour les hommes), afin d'apprendre la programmation et d'autres compétences techniques dans un environnement social et collaboratif. Elle est aussi une développeuse web front-end chez Dynamo, une agence de design spécialisée dans l'élaboration des expériences numériques pour les jeunes entreprises et les organisations innovatrices. Elle est une mentor active dans la communauté lors de divers événements technologiques tels que Startup Weekend Montreal, WordCamp, et AngelHack. Ses passions se situent dans les nouvelles technologies, l'accessibilité, l'alphabétisation numérique, conception de UX et dans le partage de son enthousiasme pour l'apprentissage de la programmation."
-  rita:
-    small_desc: "Développeuse logiciel à Shopify"
+speakers_collection:
+  - key: nancy-naluz
+    name: Nancy Naluz
+    title: Fondatrice de Ladies Learning Code à Montreal et développeur chez Dynamo
+    bio: "Nancy Naluz une développeur Web, gestionnaire de communauté et une conférencière. Elle est la fondatrice et l'une des femmes en charge du chapitre à Montréal de Ladies Learning Code, une organisation, dirigée par des femmes, à but non lucratif qui offre des ateliers pour les femmes (et pour les hommes), afin d'apprendre la programmation et d'autres compétences techniques dans un environnement social et collaboratif. Elle est aussi une développeur web front-end chez Dynamo, une agence de design spécialisée dans l'élaboration des expériences numériques pour les jeunes entreprises et les organisations innovatrices. Elle est une mentor active dans la communauté lors de divers événements technologiques tels que Startup Weekend Montreal, WordCamp, et AngelHack. Ses passions se situent dans les nouvelles technologies, l'accessibilité, l'alphabétisation numérique, conception de UX et dans le partage de son enthousiasme pour l'apprentissage de la programmation."
+  - key: rita-lu
+    name: Rita Lu
+    title: Développeur logiciel chez Shopify
     bio: "Puisque je suis issue d'une formation en musique classique et en littérature anglaise, le fait de poursuivre une carrière dans la technologie est quelque chose que je n'avais même pas envisagée jusqu'à ma dernière session de ma deuxième année universitaire, quand j'ai pris, sur un coup de tête, mon premier cours d'introduction aux sciences informatiques. Ce fut tout ce qu'il m'a fallu pour avoir la piqûre. J'ai donc immédiatement migré vers le programme de sciences informatiques et j'ai commencé à visiter chaque Hackathon pouvant ainsi rencontrer un tas de gens vraiment doués et motivés qui m'ont aidée à apprendre à coder. Après avoir obtenu mon diplôme, j'ai commencé à travailler à Shopify comme développeur logiciel. Quand je ne suis pas assise devant mon ordinateur à programmer, je suis assise devant mon ordinateur à jouer aux jeux vidéos, à jouer du piano, à lire ou à passer progressivement à travers la sélection impressionnante de brasseries artisanales de Montréal."
 venue:
   title: "Lieu"
@@ -38,8 +41,8 @@ schedule:
   date: "12 Mars" 
   dateAtt: " "
   fullDate: 2016 de 8:00 AM à 5:00 PM
-  text_1: "Nous allons afficher l'horaire lorsque toutes les conférencières seront confirmées. Des conférences et des codelabs intéressants seront présentés bientôt."
-  lunch: "Déjeuner et des collations seront servis et n'oubliez pas d'apporter votre ordinateur portable afin de participer à nos codelabs!"
+  text_1: "Nous allons afficher l'horaire lorsque toutes les conférenciers seront confirmées. Des conférences et des codelabs intéressants seront présentés bientôt."
+  lunch: "Déjeuner et des collations seront servis et n'oubliez pas d'apporter votre ordinateur portable afin de participer à nos codelabs !"
 sponsors: 
   title: Commanditaires
   platinum: Platine
@@ -54,5 +57,5 @@ tickets:
   text_2: " février, 2016. 18+ seulement."
 subscription:
   title: Abonnez-vous à notre liste de diffusion
-  text: Nous vous tiendrons au courant des dernières nouvelles!
+  text: Nous vous tiendrons au courant des dernières nouvelles !
   subscribe: Abonnez-vous
