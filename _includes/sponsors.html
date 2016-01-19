@@ -1,21 +1,19 @@
 <section id="sponsors" class="section section--theme-1">
     <div class="container text-center">
-        <h2>Sponsors</h2>
+        <h2>{% t sponsors.title %}</h2>
 
-        <h3>Want to be a sponsor? Check out our <a href="{{ "/assets/files/sponsorship-proposal-en.pdf" | prepend: site.baseurl_root }}">sponsorship proposal</a>.</h3>
+        <h3>{% t sponsors.desc_1 %}<a href="{{ "/assets/files/sponsorship-proposal-en.pdf" | prepend: site.baseurl_root }}">{% t sponsors.desc_2 %}</a>.</h3>
 
-        <h4 class="sponsors-platinum"><strong>Platinum</strong></h4>
+        <h4 class="sponsors-platinum"><strong>{% t sponsors.platinum %}</strong></h4>
 
         <div class="row">
             <div class="col-sm-4 col-sm-offset-4 text-center card">
                 <img src="/assets/images/logo-ets.png" alt="École de technologie supérieure">
 
-                <h3>École de technologie supérieure</h3>
+                <h3>École de technologie supérieure (ÉTS) </h3>
 
                 <p>
-                    École de technologie supérieure is a public engineering school in Montreal, Quebec, Canada. Founded
-                    in 1974, the École de technologie supérieure is part of the Université du Québec system and offers
-                    undergraduate, graduate and doctoral programs.
+                   {% t venue.desc %}
                 </p>
             </div>
         </div>
