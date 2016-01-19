@@ -37,7 +37,7 @@ venue:
   desc: "is a public engineering school in Montreal, Quebec, Canada. Founded in 1974, the École de technologie supérieure is part of the Université du Québec system and offers undergraduate, graduate and doctoral programs."
   itinerary: Itinerary
 schedule:
-  schedule: Schedule
+  title: Schedule
   date: March 12
   dateAtt: "th"
   fullDate: ", 2016 from 8:00 AM to 5:00 PM"
