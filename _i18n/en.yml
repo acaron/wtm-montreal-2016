@@ -42,6 +42,10 @@ schedule:
   lunch: "Lunch and snacks will be served and don't forget to bring your laptop to participate to our codelabs!"
 sponsors: 
   title: Sponsors
+  platinum: Platinum
+  gold: Gold
+  silver: Silver
+  bronze: Bronze
   desc_1: "Want to be a sponsor? Check out our "
   desc_2: sponsorship proposal
 tickets:
