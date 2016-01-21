@@ -10,7 +10,7 @@
         background: none;
       }
     }
-    &:not(:last-child) {
+    &:not(.highlight) {
       a {
         color: #FFFFFF;
         line-height: 25px;

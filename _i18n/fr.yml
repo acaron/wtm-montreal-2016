@@ -5,9 +5,8 @@ global:
   description: Women Techmakers est un programme créé par Google afin de célébrer la Journée internationale de la femme et de souligner le talent des femmes dans le milieu de l’informatique.
 index:
   title: International Women's Day Global Event Series 2016 - Connect. Create. Celebrate.
-  comming: À venir
-header: 
-  about: À propos de WTM
+  coming: À venir
+header:
   tickets: Acheter des billets
   be_speaker: Être conférencier
   title_text: Women Techmakers propulsé par GDG Montreal présente
@@ -16,17 +15,19 @@ header:
   wtm_desc_1: Women Techmakers est un programme créé par
   wtm_desc_2: "afin de célébrer la Journée internationale de la femme et de souligner le talent des femmes dans le milieu de l’informatique. Cette année, nous avons décidé d'organiser la première édition à Montréal dans le cadre de l'événement"
   wtm_desc_3: " qui a connu plus de 200 événements mondiaux dans 52 pays. Cet événement permet de célébrer la Journée internationale de la femme, de promouvoir le talent et la passion, d’augmenter la visibilité de la communauté montréalaise et de permettre la création d’un réseau de contacts dans l’industrie tout en mettant à l’honneur les femmes dans l’industrie technologique."
+about:
+  title: À propos
 speakers:
-  title: Conférencières
-  be_speaker: "Vous voulez faire une conférence? Regardez notre"
+  title: Conférenciers
+  be_speaker: "Vous voulez faire une conférence ? Regardez notre"
   be_speaker_2: appel de conférence
-  text_desc: "Plus à venir, nous vous promettons qu'elles vont être inspirantes !"
+  text_desc: "Plus à venir, nous vous promettons qu'ils vont être inspirants !"
   learn_more: En savoir plus
 speakers_collection:
   - key: nancy-naluz
     name: Nancy Naluz
     title: Fondatrice de Ladies Learning Code à Montreal et développeur chez Dynamo
-    bio: "Nancy Naluz une développeur Web, gestionnaire de communauté et une conférencière. Elle est la fondatrice et l'une des femmes en charge du chapitre à Montréal de Ladies Learning Code, une organisation, dirigée par des femmes, à but non lucratif qui offre des ateliers pour les femmes (et pour les hommes), afin d'apprendre la programmation et d'autres compétences techniques dans un environnement social et collaboratif. Elle est aussi une développeur web front-end chez Dynamo, une agence de design spécialisée dans l'élaboration des expériences numériques pour les jeunes entreprises et les organisations innovatrices. Elle est une mentor active dans la communauté lors de divers événements technologiques tels que Startup Weekend Montreal, WordCamp, et AngelHack. Ses passions se situent dans les nouvelles technologies, l'accessibilité, l'alphabétisation numérique, conception de UX et dans le partage de son enthousiasme pour l'apprentissage de la programmation."
+    bio: "Nancy Naluz une développeur Web, gestionnaire de communauté et un conférencier. Elle est la fondatrice et l'une des femmes en charge du chapitre à Montréal de Ladies Learning Code, une organisation, dirigée par des femmes, à but non lucratif qui offre des ateliers pour les femmes (et pour les hommes), afin d'apprendre la programmation et d'autres compétences techniques dans un environnement social et collaboratif. Elle est aussi une développeur web front-end chez Dynamo, une agence de design spécialisée dans l'élaboration des expériences numériques pour les jeunes entreprises et les organisations innovatrices. Elle est une mentor active dans la communauté lors de divers événements technologiques tels que Startup Weekend Montreal, WordCamp, et AngelHack. Ses passions se situent dans les nouvelles technologies, l'accessibilité, l'alphabétisation numérique, conception de UX et dans le partage de son enthousiasme pour l'apprentissage de la programmation."
   - key: rita-lu
     name: Rita Lu
     title: Développeur logiciel chez Shopify
@@ -41,7 +42,7 @@ schedule:
   date: "12 Mars" 
   dateAtt: " "
   fullDate: 2016 de 8:00 AM à 5:00 PM
-  text_1: "Nous allons afficher l'horaire lorsque toutes les conférenciers seront confirmées. Des conférences et des codelabs intéressants seront présentés bientôt."
+  text_1: "Nous allons afficher l'horaire lorsque toutes les conférenciers seront confirmés. Des conférences et des codelabs intéressants seront présentés bientôt."
   lunch: "Déjeuner et des collations seront servis et n'oubliez pas d'apporter votre ordinateur portable afin de participer à nos codelabs !"
 sponsors: 
   title: Commanditaires
@@ -49,7 +50,7 @@ sponsors:
   gold: Or
   silver: Argent
   bronze: Bronze
-  desc_1: "Vous voulez être commanditaire? Regardez "
+  desc_1: "Vous voulez être commanditaire ? Regardez la "
   desc_2: proposition de commandite
 tickets:
   text_1: Les billets vont être en vente à partir du 1 
