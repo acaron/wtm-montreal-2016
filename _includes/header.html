@@ -26,10 +26,10 @@
                 </li>
                 <li>
                     {% if site.lang == "fr" %}
-                        {% capture link_en %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+                        {% capture link_en %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
                         <a class="lang" href="{{ link_en }}"><span class="hidden-xs">{% t global.english %}</span><span class="visible-xs">EN</span></a>
                     {% else if site.lang == "en" %}
-                        {% capture link_fr %}{{ site.baseurl_root }}fr{{ page.url  }}{% endcapture %}
+                        {% capture link_fr %}{{ site.baseurl_root }}fr{{ page.url }}{% endcapture %}
                         <a class="lang" href="{{ link_fr }}"><span class="hidden-xs">{% t global.french %}</span><span class="visible-xs">FR</span></a>
                     {% endif %}
                 </li>
@@ -48,6 +48,7 @@
         </h1>
 
         <a href="#" class="btn btn-default btn-lg" data-toggle="tooltip" data-placement="top" title="Coming soon">{% t header.tickets %}</a>&nbsp;
-        <a href="{{ "/assets/files/call-for-papers-en.pdf" | prepend: site.baseurl_root }}" class="btn btn-default btn-lg">{% t header.be_speaker %}</a>
+        {% capture link_call %}/assets/files/call-for-papers-{% t global.locale %}.pdf{% endcapture %}
+        <a href="{{ link_call | prepend: site.baseurl_root }}" class="btn btn-default btn-lg">{% t header.be_speaker %}</a>
     </div>
 </header>
