@@ -42,8 +42,8 @@ schedule:
   title: Horaire
   date: "12 Mars" 
   dateAtt: " "
-  fullDate: 2016 de 8:00 AM à 5:00 PM
-  text_1: "Nous allons afficher l'horaire lorsque toutes les conférenciers seront confirmés. Des conférences et des codelabs intéressants seront présentés bientôt."
+  fullDate: 2016 de 8:00 à 17:00 
+  text_1: "Nous allons afficher l'horaire lorsque tous les conférenciers seront confirmés. Des conférences et des codelabs intéressants seront présentés bientôt."
   lunch: "Déjeuner et des collations seront servis et n'oubliez pas d'apporter votre ordinateur portable afin de participer à nos codelabs !"
 sponsors: 
   title: Commanditaires
