@@ -13,7 +13,6 @@ analytics :
   provider : google
   google : 
       tracking_id : 'UA-72837204-1'
-      
 
 # Build settings
 permalink: pretty
