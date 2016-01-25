@@ -37,6 +37,10 @@ speakers_collection:
     name: Maeghan Smulders
     title: Founder of ProjectONE12 and lead marketing initiatives at True Key by Intel Security
     bio: "Founder of ProjectONE12, Maeghan redefined the job hunt process by interning at 10 different companies in 112 days across North America. She then joined Montreal-based startup PasswordBox (acquired by Intel) to lead all marketing and communication from its launch out of private beta. Today, she leads marketing initiatives for True Key by Intel Security - a cross platform application to remove the hassle of passwords. Maeghan is an advocate for women in technology - Co-organizing All-Girl Hack Night, promoting and encouraging others to learn code, and is a mentor in the community. Maeghan has been nationally recognized for her entrepreneurial work, broadly traveled, built 6 homes in developing countries, written award-nominated academic papers and lead community initiatives to improve the standard of living for aspiring entrepreneurs in Alberta."
+  - key: francoise-provencher
+    name: Françoise Provencher
+    title: PyLadies Montreal Organizer and Data Analyst at Shopify
+    bio: "Françoise is formally trained as a physicist and did research during her PhD on finding bottlenecks for energy conversion in solar cells. Now she finds bottlenecks for customer conversion in hundreds of thousand of e-commerce websites. She also runs the PyLadies Montreal meetup."
 venue:
   title: "Venue"
   adr: "1100 Notre-Dame W, Montreal, QC H3C 1K3"
