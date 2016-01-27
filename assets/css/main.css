@@ -5960,6 +5960,9 @@ button.visible-xs {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+.margin-bottom {
+  margin-bottom: 20px; }
+
 .site-header {
   background-image: url("/assets/images/bg-header.jpg");
   background-size: cover;
