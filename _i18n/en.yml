@@ -43,8 +43,8 @@ speakers_collection:
     bio: "Françoise is formally trained as a physicist and did research during her PhD on finding bottlenecks for energy conversion in solar cells. Now she finds bottlenecks for customer conversion in hundreds of thousand of e-commerce websites. She also runs the PyLadies Montreal meetup."
   - key: andrea-wood
     name: Andrea Wood
-    title: "Strategy practice at A2W Consulting and co-founder of Flint & Steel Media"
-    bio: "Andrea Wood leads the strategy practice at A2W Consulting and is the co-founder of Flint & Steel Media. With a focus on the commercialization of early stage businesses, Andrea helps her clients to understand and chart the growth of products and services in consumer electronics, media and gaming. At the same time, Andrea servesFlint & Steel Media develops software with the goal of stimulating greater civic participation, Andrea honed her keen storytelling and analytical skills during her undergraduate studies in Rhetoric & Professional Writing at the University of Waterloo and graduate studies in International Political Economy at the University of Warwick. Hard work, good fortune and a dedication found Andrea in strategy, research and writing roles at Digital 4Sight, Jupiter Research, The Conference Board of Canada, Quebecor. After 10+ years in industry, the growth of Montreal’s tech scene and Andrea’s propensity for building innovative and profitable products and services led to the creation of A2W Consulting. Since 2011, Andrea has worked with almost a dozen start-ups to build strategic growth plans, product definitions, business models and marketing initiatives. In her spare time, Andrea serves as the Director of Operations at The Campfire Project, a storytelling project celebrating Canada's 150th anniversary."
+    title: "Strategy Director at A2W Consulting and Co-Founder of Flint & Steel Media"
+    bio: "Andrea Wood is business strategist with an eye for insight. After 10+ years in industry, the growth of Montreal’s tech scene and Andrea’s propensity for building innovative and profitable products and services led to the creation of A2W Consulting. Since 2011, Andrea has worked with over twenty start-ups to build strategic growth plans, product definitions, business models and marketing initiatives.  Andrea is passionate about connecting entrepreneurs and start-ups to resources that can grow their business. In 2015, Andrea co-founded Flint & Steel Media – a social enterprise providing software as a means to stimulate civic participation, citizen engagement and meaningful social change."
   - key: fatih-nayebi
     name: Fatih Nayebi
     title: "Director at CGI and Post-Doctoral Researcher at ÉTS"
@@ -70,8 +70,8 @@ sponsors:
   desc_1: "Want to be a sponsor? Check out our "
   desc_2: sponsorship proposal
 tickets:
-  text_1: Tickets will go on sale February 1
-  text_sup: st
+  text_1: Tickets will go on sale February 8
+  text_sup: th
   text_2: ", 2016. 18+ only."
 subscription:
   title: Subscribe to our mailing list
