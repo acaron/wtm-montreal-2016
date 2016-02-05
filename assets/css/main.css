@@ -6166,3 +6166,12 @@ section {
     .btn.btn-default:hover {
       color: #27B9A2;
       background-color: #FFFFFF; }
+.icon {
+  width: 25px;
+  height: 25px;
+}
+.icon-facebook:hover{
+  fill:#3c599b}
+.icon-google-plus:hover{
+  fill:#ce352c}
+
