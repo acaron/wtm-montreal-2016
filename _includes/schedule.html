@@ -8,4 +8,30 @@
 
         <p>{% t schedule.lunch %}</p>
     </div>
+
+    <div class="container">
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="auditorium-1" class="active">
+                <a href="#auditorium-1" aria-controls="auditorium-1" role="tab" data-toggle="tab">
+                    {% t schedule.auditorium %} 1
+                </a>
+            </li>
+
+            <li role="auditorium-2">
+                <a href="#auditorium-2" aria-controls="auditorium-2" role="tab" data-toggle="tab">
+                    {% t schedule.auditorium %} 2
+                </a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="auditorium-1">
+                {% include auditorium-1.html %}
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="auditorium-2">
+                {% include auditorium-2.html %}
+            </div>
+        </div>
+    </div>
 </section>

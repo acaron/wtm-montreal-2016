@@ -1,0 +1,21 @@
+.nav-tabs {
+  margin: 0;
+
+  li {
+    &.active {
+      a {
+        background: #DDDDDD !important;
+      }
+    }
+
+    a {
+      border: 1px solid #DDDDDD;
+      border-bottom: none;
+    }
+  }
+}
+
+.tab-content {
+  border: 1px solid #DDDDDD;
+  border-top: none;
+}
