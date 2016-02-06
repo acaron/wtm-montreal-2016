@@ -73,7 +73,8 @@ schedule:
   fullDate: ", 2016 from 8:00 AM to 5:00 PM"
   text_1: "We will display the schedule when the call for papers is over! Awesome talk subjects and codelabs are coming soon."
   lunch: "Lunch and snacks will be served and don't forget to bring your laptop to participate to our codelabs!"
-sponsors: 
+  auditorium: "Auditorium"
+sponsors:
   title: Sponsors
   platinum: Platinum
   gold: Gold
