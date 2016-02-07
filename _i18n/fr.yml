@@ -77,6 +77,7 @@ schedule:
   fullDate: 2016 de 8:00 à 17:00 
   text_1: "Nous allons afficher l'horaire lorsque tous les conférenciers seront confirmés. Des conférences et des codelabs intéressants seront présentés bientôt."
   lunch: "Déjeuner et des collations seront servis et n'oubliez pas d'apporter votre ordinateur portable afin de participer à nos codelabs !"
+  auditorium: "Piste"
 sponsors: 
   title: Commanditaires
   platinum: Platine
@@ -87,7 +88,7 @@ sponsors:
   desc_2: proposition de commandite
   gdg: "sont pour les développeurs qui sont intéressés à développeur de la technologie de Google; tout de l'Android, Chrome, Drive, et les plates-formes Google Cloud, aux API de produits comme l'API de Cast, l'API Google Maps, et YouTube API."
 tickets:
-  text_1: Les billets vont être en vente à partir du 8 
+  text_1: Les billets sont en vente à partir du 8 
   text_sup: 
   text_2: " février, 2016. 18+ seulement."
 subscription:
