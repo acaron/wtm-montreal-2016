@@ -75,7 +75,11 @@
           top: 25px;
         }
       }
+    }
+  }
 
+  &.schedule--center-last {
+    .schedule-item {
       &:last-child {
         &:after {
           background: $brand-primary;
@@ -83,8 +87,8 @@
           content: "";
           display: block;
           height: 8px;
-          left: -39px;
-          position: relative;
+          right: -5px;
+          position: absolute;
           width: 8px;
         }
       }

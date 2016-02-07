@@ -1,83 +1,186 @@
 <section id="schedule" class="section section--theme-1">
-    <div class="container text-center">
-        <h2>{% t schedule.title %}</h2>
+  <div class="container text-center">
+    <h2>{% t schedule.title %}</h2>
 
-        <h3>{% t schedule.date %}<sup>{% t schedule.dateAtt %}</sup>{% t schedule.fullDate %}</h3>
+    <h3>{% t schedule.date %}<sup>{% t schedule.dateAtt %}</sup>{% t schedule.fullDate %}</h3>
+  </div>
+
+  <div class="container">
+    <div class="row schedule-wrapper">
+      <div class="col-sm-12">
+        <ul class="schedule schedule--center-top">
+          <li class="schedule-item">
+            <div class="schedule-item-thumbnail">
+              <i class="glyphicon glyphicon-edit"></i>
+            </div>
+
+            <div class="schedule-item-content">
+              <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 8:00 AM - 9:00 AM</p>
+              <h2 class="schedule-item-content-title">
+              Welcome and registration
+              </h2>
+            </div>
+          </li>
+
+          <li class="schedule-item">
+            <div class="schedule-item-thumbnail">
+            <i class="glyphicon glyphicon-bullhorn"></i>
+            </div>
+
+            <div class="schedule-item-content">
+              <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 8:30 AM - 8:45 AM</p>
+              <h2 class="schedule-item-content-title">
+              Opening keynote
+              </h2>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <div class="container">
-        <div class="row schedule-wrapper">
-            <div class="col-sm-12">
-                <ul class="schedule schedule--center-top">
-                    <li class="schedule-item">
-                        <div class="schedule-item-thumbnail">
-                            <i class="glyphicon glyphicon-edit"></i>
-                        </div>
+    <div class="row schedule-wrapper">
+      <div class="col-sm-4">
+        {% include track-1-1.html %}
+      </div>
 
-                        <div class="schedule-item-content">
-                            <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 8:00 AM - 9:00 AM</p>
-                            <h2 class="schedule-item-content-title">
-                            Welcome and registration
-                            </h2>
-                        </div>
-                    </li>
-
-                    <li class="schedule-item">
-                        <div class="schedule-item-thumbnail">
-                        <i class="glyphicon glyphicon-bullhorn"></i>
-                        </div>
-
-                        <div class="schedule-item-content">
-                            <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 8:30 AM - 8:45 AM</p>
-                            <h2 class="schedule-item-content-title">
-                            Opening keynote
-                            </h2>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row schedule-wrapper">
-            <div class="col-sm-4">
-                {% include auditorium-1.html %}
-            </div>
-
-            <div class="col-sm-4 col-sm-offset-4">
-                {% include auditorium-2.html %}
-            </div>
-        </div>
-
-        <div class="row schedule-wrapper">
-            <div class="col-sm-12">
-                <ul class="schedule schedule--center-bottom">
-                    <li class="schedule-item">
-                        <div class="schedule-item-thumbnail">
-                            <i class="glyphicon glyphicon-edit"></i>
-                        </div>
-
-                        <div class="schedule-item-content">
-                            <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 8:00 AM - 9:00 AM</p>
-                            <h2 class="schedule-item-content-title">
-                                Welcome and registration
-                            </h2>
-                        </div>
-                    </li>
-
-                    <li class="schedule-item">
-                        <div class="schedule-item-thumbnail">
-                            <i class="glyphicon glyphicon-bullhorn"></i>
-                        </div>
-
-                        <div class="schedule-item-content">
-                            <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 8:30 AM - 8:45 AM</p>
-                            <h2 class="schedule-item-content-title">
-                                Opening keynote
-                            </h2>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
+      <div class="col-sm-4 col-sm-offset-4">
+        {% include track-2-1.html %}
+      </div>
     </div>
+
+    <div class="row schedule-wrapper">
+      <div class="col-sm-12">
+        <ul class="schedule schedule--center-top schedule schedule--center-bottom">
+          <li class="schedule-item">
+            <div class="schedule-item-thumbnail">
+            <i class="glyphicon glyphicon-cutlery"></i>
+            </div>
+
+            <div class="schedule-item-content">
+              <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 10:00 AM - 10:30 AM</p>
+              <h2 class="schedule-item-content-title">
+              Break
+              </h2>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row schedule-wrapper">
+      <div class="col-sm-4">
+        {% include track-1-2.html %}
+      </div>
+
+      <div class="col-sm-4 col-sm-offset-4">
+        {% include track-2-2.html %}
+      </div>
+    </div>
+
+    <div class="row schedule-wrapper">
+      <div class="col-sm-12">
+        <ul class="schedule schedule--center-top schedule schedule--center-bottom">
+          <li class="schedule-item">
+            <div class="schedule-item-thumbnail">
+            <i class="glyphicon glyphicon-cutlery"></i>
+            </div>
+
+            <div class="schedule-item-content">
+              <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 11:30 AM - 1:00 PM</p>
+              <h2 class="schedule-item-content-title">
+              Lunch
+              </h2>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row schedule-wrapper">
+      <div class="col-sm-4">
+        {% include track-1-3.html %}
+      </div>
+
+      <div class="col-sm-4 col-sm-offset-4">
+        {% include track-2-3.html %}
+      </div>
+    </div>
+
+    <div class="row schedule-wrapper">
+      <div class="col-sm-12">
+        <ul class="schedule schedule--center-top schedule schedule--center-bottom">
+          <li class="schedule-item">
+            <div class="schedule-item-thumbnail">
+            <i class="glyphicon glyphicon-cutlery"></i>
+            </div>
+
+            <div class="schedule-item-content">
+              <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 2:00 PM - 2:15 PM</p>
+              <h2 class="schedule-item-content-title">
+              Break
+              </h2>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row schedule-wrapper">
+      <div class="col-sm-4">
+        {% include track-1-4.html %}
+      </div>
+
+      <div class="col-sm-4 col-sm-offset-4">
+        {% include track-2-4.html %}
+      </div>
+    </div>
+
+    <div class="row schedule-wrapper">
+      <div class="col-sm-12">
+        <ul class="schedule schedule--center-top schedule schedule--center-bottom">
+          <li class="schedule-item">
+            <div class="schedule-item-thumbnail">
+            <i class="glyphicon glyphicon-cutlery"></i>
+            </div>
+
+            <div class="schedule-item-content">
+              <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 3:15 PM - 3:45 PM</p>
+              <h2 class="schedule-item-content-title">
+              Break
+              </h2>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row schedule-wrapper">
+      <div class="col-sm-4">
+        {% include track-1-5.html %}
+      </div>
+
+      <div class="col-sm-4 col-sm-offset-4">
+        {% include track-2-5.html %}
+      </div>
+    </div>
+
+    <div class="row schedule-wrapper">
+      <div class="col-sm-12">
+        <ul class="schedule schedule--center-bottom schedule--center-last">
+          <li class="schedule-item">
+            <div class="schedule-item-thumbnail">
+              <i class="glyphicon glyphicon-bullhorn"></i>
+            </div>
+
+            <div class="schedule-item-content">
+              <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 4:45 PM - 5:00 PM</p>
+              <h2 class="schedule-item-content-title">
+                Ending keynote
+              </h2>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
