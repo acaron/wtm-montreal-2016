@@ -86,6 +86,11 @@ section {
 
   &.section--theme-1 {
     background-color: #FFFFFF;
+    .row{
+        a{
+          color : #000000;
+        }
+    }
   }
 
   &.section--theme-2 {

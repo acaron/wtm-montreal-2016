@@ -61,6 +61,11 @@ speakers_collection:
     name: Véronique Renaud
     title: "Web strategist at Bell (Bell Business Markets)"
     bio: "After completing a bachelor degree in graphic design, Véronique began her career in ad agency. She then worked 10 year for the Canadian Broadcasting Company (CBC). In 2009, Véronique returned to school to began a graduate business degree (DESG) at HEC Montreal. That's when she was noticed by her teachers and  was offered a marketing analyst position at the Chaire de commerce électronique RBC Groupe Financier.Thus discovering a new passion for the Web, Véronique decides to add to his academic curriculum a Masters Degree in Management Science in eCommerce (HEC). Since, she works for Bell Professional Services on internal initiatives(Bell Business Markets) or external ones (National Bank of Canada, Buffalo Jeans, Québec Hospital (CHUQ), City of Mississauagua, TMX Group (stock exchange market), Intact Insurances, Mouvement Desjardins, Musées des Civilisations du Québec (MCQ))."
+  - key: roberta-voulon
+    name: Roberta Voulon 
+    title: "Founder of Les Pitonneux"
+    bio: "I'm a natural language geek who has been living on the command line since 1984. As a born generalist, I'm a professional dabbler in all things tech. After my previous job at Ubisoft I'm now a newbie iOS developer, with a mission to help fill the skills gap in tech by closing the diversity gap. I founded Les Pitonneux, a skills incubator in Montréal for people learning to code online, and I'm a coach/mentor in the Technovation Challenge program, helping a team of highschool girls develop their first iOS application in Swift."
+
 venue:
   title: "Venue"
   adr: "1100 Notre-Dame W, Montreal, QC H3C 1K3"
@@ -82,6 +87,8 @@ sponsors:
   bronze: Bronze
   desc_1: "Want to be a sponsor? Check out our "
   desc_2: sponsorship proposal
+  gdg: "are for developers who are interested in Google's developer technology; everything from the Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API."
+  google: "Google’s mission is to organize the world’s information and make it universally accessible and useful."
 tickets:
   text_1: Tickets will go on sale February 8
   text_sup: th

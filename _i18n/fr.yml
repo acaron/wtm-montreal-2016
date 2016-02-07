@@ -61,6 +61,10 @@ speakers_collection:
     name: Véronique Renaud
     title: "Stratège Web chez Bell (Bell Marché affaires)"
     bio: "Après des études universitaires en design, Véronique débute sa carrière en agence publicitaire et pour ensuite joindre les rangs de la Société Radio-Canada à titre de designer graphique et y restera pendant pendant 10 ans. En 2009, elle fait un retour aux études et entame un Diplôme d’études supérieures en gestion (DESG) aux HEC Montréal. C’est alors qu’elle se fait remarquer par ses professeurs et qu’on lui offre un poste d’analyste marketing à la Chaire de commerce électronique RBC Groupe Financier. Se découvrant ainsi une nouvelle passion pour le Web, elle décide d’ajouter à son parcours académique une Maîtrise en science de la gestion avec spécialisation en commerce électroniques (HEC). Depuis, Véronique travaille chez Bell en tant que stratège Web, tant pour des initiatives internes (Bell Marché affaires) qu’externes (Banque Nationale du Canada, Buffalo Jeans, Centre Hospitalier du Québec (CHUQ), City of Mississauagua, Groupe TMX (Bourse du Canada), Intact assurances, Mouvement Desjardins, Musées des Civilisations du Québec (MCQ))."
+  - key: roberta-voulon
+    name: Roberta Voulon 
+    title: "Fondatrice de Les Pitonneux"
+    bio: "Je suis une geek de nature qui vit en lignes de commande depuis 1984. Généraliste de nature, je suis une amateure professionelle de tout ce qui touche à la technologie. Suite à mon emploi prédécent chez Ubisoft, je suis maintenant une développeuse débutante iOS, avec comme mission d’aider à combler le déficit de compétences en technologie en réduisant l'écart de diversité. J’ai fondé Les Pitonneux, un incubateur de talents à Montréal pour les personnes apprenant à coder en ligne, et je suis également une coach / mentor pour le défi Technovation, aidant présentement une équipe de jeunes filles du secondaire à  développer leur première application iOS en Swift."
 venue:
   title: "Lieu"
   adr: "1100 Notre-Dame O, Montréal, QC H3C 1K3"
@@ -82,6 +86,8 @@ sponsors:
   bronze: Bronze
   desc_1: "Vous voulez être commanditaire ? Regardez la "
   desc_2: proposition de commandite
+  google: "La mission de Google est d'organiser l'information mondiale et la rendre universellement accessible et utile."
+
 tickets:
   text_1: Les billets vont être en vente à partir du 8 
   text_sup: 
