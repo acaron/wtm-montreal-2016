@@ -96,3 +96,7 @@ subscription:
   title: Subscribe to our mailing list
   text: We will keep you updated about the latest news!
   subscribe: Subscribe
+organizer:
+  title: Organizers
+  laurence: "Mobile developer at Bell and software engineering graduate from ÉTS"
+  annie: "Full-stack Web developer at CGI and software engineering student at ÉTS"

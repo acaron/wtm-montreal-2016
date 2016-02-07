@@ -95,3 +95,7 @@ subscription:
   title: Abonnez-vous à notre liste de diffusion
   text: Nous vous tiendrons au courant des dernières nouvelles !
   subscribe: Abonnez-vous
+organizer:
+  title: Organisatrices
+  laurence: "Développeur de solution mobile chez Bell et diplômé en génie logiciel à l'ÉTS"
+  annie: "Développeur Web full-stack chez CGI et étudiante en génie logiciel à l'ÉTS"
