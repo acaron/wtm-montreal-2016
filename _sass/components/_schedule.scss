@@ -4,6 +4,36 @@
   margin: 0 0 0 70px;
   padding: 25px 75px;
 
+  &.with-connection-bottom {
+    position: relative;
+    border-bottom: 1px solid #DDDDDD;
+
+    &:after {
+      position: absolute;
+      bottom: -1px;
+      right: -101px;
+      content: '';
+      background-color: #DDDDDD;
+      height: 1px;
+      width: 101px;
+    }
+  }
+
+  &.with-connection-top {
+    position: relative;
+    border-top: 1px solid #DDDDDD;
+
+    &:after {
+      position: absolute;
+      top: -1px;
+      right: -101px;
+      content: '';
+      background-color: #DDDDDD;
+      height: 1px;
+      width: 101px;
+    }
+  }
+
   .schedule-item {
     position: relative;
 
@@ -25,6 +55,7 @@
 
     .schedule-item-content {
       padding-top: 15px;
+      padding-bottom: 15px;
 
       p {
         margin: 0 0 15px;
@@ -48,6 +79,11 @@
         &:after {
           display: none;
         }
+      }
+
+      .schedule-item-content-description {
+        margin-top: 20px;
+        margin-bottom: 5px;
       }
     }
   }

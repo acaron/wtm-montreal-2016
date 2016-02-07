@@ -3,34 +3,67 @@
         <h2>{% t schedule.title %}</h2>
 
         <h3>{% t schedule.date %}<sup>{% t schedule.dateAtt %}</sup>{% t schedule.fullDate %}</h3>
-
-        <p>{% t schedule.text_1 %}</p>
-
-        <p>{% t schedule.lunch %}</p>
     </div>
 
     <div class="container">
-        <ul class="nav nav-tabs" role="tablist">
-            <li role="auditorium-1" class="active">
-                <a href="#auditorium-1" aria-controls="auditorium-1" role="tab" data-toggle="tab">
-                    {% t schedule.auditorium %} 1
-                </a>
-            </li>
+        <div class="row">
+            <div class="col-sm-6">
+                <ul class="schedule with-connection-bottom">
+                    <li class="schedule-item">
+                        <div class="schedule-item-thumbnail">
+                            <i class="glyphicon glyphicon-edit"></i>
+                        </div>
 
-            <li role="auditorium-2">
-                <a href="#auditorium-2" aria-controls="auditorium-2" role="tab" data-toggle="tab">
-                    {% t schedule.auditorium %} 2
-                </a>
-            </li>
-        </ul>
+                        <div class="schedule-item-content">
+                            <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 8:00 AM - 9:00 AM</p>
+                            <h2 class="schedule-item-content-title">
+                            Welcome and registration
+                            </h2>
+                        </div>
+                    </li>
 
-        <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active" id="auditorium-1">
+                    <li class="schedule-item">
+                        <div class="schedule-item-thumbnail">
+                        <i class="glyphicon glyphicon-bullhorn"></i>
+                        </div>
+
+                        <div class="schedule-item-content">
+                            <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 8:30 AM - 8:45 AM</p>
+                            <h2 class="schedule-item-content-title">
+                            Opening keynote
+                            </h2>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
                 {% include auditorium-1.html %}
             </div>
 
-            <div role="tabpanel" class="tab-pane" id="auditorium-2">
+            <div class="col-sm-6">
                 {% include auditorium-2.html %}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <ul class="schedule with-connection-top with-connection-bottom">
+                    <li class="schedule-item">
+                        <div class="schedule-item-thumbnail">
+                            <i class="glyphicon glyphicon-cutlery"></i>
+                        </div>
+
+                        <div class="schedule-item-content">
+                            <p class="schedule-item-content-time"><i class="glyphicon glyphicon-time"></i> 10:00 AM</p>
+                            <h2 class="schedule-item-content-title">
+                            Break
+                            </h2>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
