@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
      * @type {*|jQuery|HTMLElement}
      */
     var $htmlBody        = $('html, body'),
-        $navigationItems = $('#navbar-menu').find('a:not(.lang)');
+        $navigationItems = $('#navbar-menu').find('a:not(.external)');
 
     /**
      * Parallax
