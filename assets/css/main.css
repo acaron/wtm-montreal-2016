@@ -5963,6 +5963,19 @@ button.visible-xs {
 .margin-bottom {
   margin-bottom: 20px; }
 
+.icon {
+  width: 25px;
+  height: 25px; }
+
+.icon-facebook:hover {
+  fill: #3c599b; }
+
+.icon-google-plus:hover {
+  fill: #ce352c; }
+
+.icon-linkedin:hover {
+  fill: #017eb4; }
+
 .site-header {
   background-image: url("/assets/images/bg-header.jpg");
   background-size: cover;
@@ -6105,6 +6118,8 @@ section {
     margin-top: -25px; }
   section.section--theme-1 {
     background-color: #FFFFFF; }
+    section.section--theme-1 .row a {
+      color: #000000; }
   section.section--theme-2 {
     background-color: #F9FBFC; }
   section.section--theme-3 {
@@ -6142,6 +6157,8 @@ section {
   padding: 75px 0; }
   .site-footer .container.container--600 {
     max-width: 600px; }
+  .site-footer a.social:hover {
+    text-decoration: none; }
 
 .btn {
   border-width: 2px;
@@ -6166,3 +6183,139 @@ section {
     .btn.btn-default:hover {
       color: #27B9A2;
       background-color: #FFFFFF; }
+
+.nav-tabs {
+  margin: 0; }
+  .nav-tabs li.active a {
+    background: #DDDDDD !important; }
+  .nav-tabs li a {
+    border: 1px solid #DDDDDD;
+    border-bottom: none; }
+
+.tab-content {
+  border: 1px solid #DDDDDD;
+  border-top: none; }
+
+.schedule-wrapper {
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .schedule-wrapper .col-sm-4 {
+    display: -moz-box;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex; }
+
+.schedule {
+  list-style: none;
+  margin: 0;
+  padding-top: 25px;
+  width: 100%; }
+  .schedule.schedule--center-top .schedule-item, .schedule.schedule--center-bottom .schedule-item {
+    width: 50%; }
+    .schedule.schedule--center-top .schedule-item:nth-child(odd), .schedule.schedule--center-bottom .schedule-item:nth-child(odd) {
+      border-right: 1px solid #DDDDDD;
+      left: 0;
+      padding-right: 35px;
+      text-align: right; }
+      .schedule.schedule--center-top .schedule-item:nth-child(odd) .schedule-item-thumbnail, .schedule.schedule--center-bottom .schedule-item:nth-child(odd) .schedule-item-thumbnail {
+        right: -25px; }
+      .schedule.schedule--center-top .schedule-item:nth-child(odd) .schedule-item-content-title, .schedule.schedule--center-bottom .schedule-item:nth-child(odd) .schedule-item-content-title {
+        text-align: right; }
+    .schedule.schedule--center-top .schedule-item:nth-child(even), .schedule.schedule--center-bottom .schedule-item:nth-child(even) {
+      border-left: 1px solid #DDDDDD;
+      left: 50%;
+      padding-left: 35px;
+      text-align: left; }
+      .schedule.schedule--center-top .schedule-item:nth-child(even) .schedule-item-thumbnail, .schedule.schedule--center-bottom .schedule-item:nth-child(even) .schedule-item-thumbnail {
+        left: -25px; }
+      .schedule.schedule--center-top .schedule-item:nth-child(even) .schedule-item-content-title, .schedule.schedule--center-bottom .schedule-item:nth-child(even) .schedule-item-content-title {
+        text-align: left; }
+  .schedule.schedule--center-top {
+    border-bottom: 1px solid #DDDDDD; }
+  .schedule.schedule--center-bottom {
+    border-top: 1px solid #DDDDDD;
+    padding-top: 0; }
+    .schedule.schedule--center-bottom .schedule-item:first-child {
+      padding-top: 25px; }
+      .schedule.schedule--center-bottom .schedule-item:first-child .schedule-item-thumbnail {
+        top: 25px; }
+  .schedule.schedule--center-last .schedule-item:last-child:after {
+    background: #27B9A2;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 8px;
+    right: -5px;
+    position: absolute;
+    width: 8px; }
+  .schedule.schedule--left {
+    border-right: 1px solid #DDDDDD; }
+    .schedule.schedule--left .schedule-item {
+      padding-right: 35px;
+      text-align: right; }
+      .schedule.schedule--left .schedule-item .schedule-item-thumbnail {
+        right: -25px; }
+      .schedule.schedule--left .schedule-item .schedule-item-content-title {
+        text-align: right; }
+  .schedule.schedule--right {
+    border-left: 1px solid #DDDDDD; }
+    .schedule.schedule--right .schedule-item {
+      padding-left: 35px;
+      text-align: left; }
+      .schedule.schedule--right .schedule-item .schedule-item-thumbnail {
+        left: -25px; }
+      .schedule.schedule--right .schedule-item .schedule-item-content-title {
+        text-align: left; }
+  .schedule .schedule-item {
+    position: relative; }
+    .schedule .schedule-item .schedule-item-thumbnail {
+      height: auto;
+      position: absolute;
+      top: 0;
+      width: 50px; }
+      .schedule .schedule-item .schedule-item-thumbnail i {
+        background: #fff;
+        border: 1px solid #27B9A2;
+        border-radius: 50%;
+        color: #27B9A2;
+        padding: 15px; }
+    .schedule .schedule-item .schedule-item-content {
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      .schedule .schedule-item .schedule-item-content p {
+        margin: 0 0 15px; }
+      .schedule .schedule-item .schedule-item-content .schedule-item-content-time {
+        color: #27B9A2; }
+        .schedule .schedule-item .schedule-item-content .schedule-item-content-time i {
+          color: #cccccc;
+          top: 2px; }
+      .schedule .schedule-item .schedule-item-content .schedule-item-content-title {
+        font-size: 1.25em;
+        margin: 0 0 10px;
+        padding: 0; }
+        .schedule .schedule-item .schedule-item-content .schedule-item-content-title:after {
+          display: none; }
+      .schedule .schedule-item .schedule-item-content .schedule-item-content-description {
+        margin-top: 20px;
+        margin-bottom: 5px; }
+
+@media (max-width: 768px) {
+  .schedule-wrapper {
+    display: inherit; }
+    .schedule-wrapper .col-sm-4 {
+      display: inherit; }
+
+  .schedule.schedule--left {
+    padding-right: 20px; }
+  .schedule.schedule--right {
+    padding-left: 20px; } }
