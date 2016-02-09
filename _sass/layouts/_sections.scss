@@ -101,6 +101,11 @@ section {
     background-image: url("/assets/images/bg-section-1.png");
     background-position: top right;
     background-repeat: no-repeat;
+    .row{
+            a{
+              color : #000000;
+            }
+        }
   }
 
   &.section--theme-4 {

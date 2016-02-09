@@ -65,7 +65,14 @@ speakers_collection:
     name: Roberta Voulon 
     title: "Founder of Les Pitonneux"
     bio: "I'm a natural language geek who has been living on the command line since 1984. As a born generalist, I'm a professional dabbler in all things tech. After my previous job at Ubisoft I'm now a newbie iOS developer, with a mission to help fill the skills gap in tech by closing the diversity gap. I founded Les Pitonneux, a skills incubator in Montréal for people learning to code online, and I'm a coach/mentor in the Technovation Challenge program, helping a team of highschool girls develop their first iOS application in Swift."
-
+  - key: corelia-kostovic
+    name: "Corélia Kostovic"
+    title: Digital strategist at CleverToday
+    bio: "In a few words, I am an analyst who compile market information with Web and social data to improve the competitive advantage for startups and IT companies. Initially trainee at the worldwide software company Amadeus IT group, I progressively became a Marketing strategist for several Web start-ups in Morocco, France and Québec to help them in understanding their market and deploy their digital strategy. I hold a Master degree in Competitive Intelligence & Strategic Communication from the University of Poitiers (France) and have been co-speaker at the 7th Competitive Intelligence International Conference, in March 2015."
+  - key: mahtab-ghamsari
+    name: Mahtab Ghamsari
+    title: Big Data Developer at Bandsintown Group
+    bio: "I have been a researcher and developer in the Music and Tech world for a few years now. I love music and have had the privilage of working as a Data Engineer in the Music Industry for the past year. My professional background is varied, from working in hardware to web and now to data but since I have a passion for music and the arts I try to focus my efforts in this direction. During this talk I would first like to take the word Big Data away from simply a buzz word and into a more understandable term and I would like to explain how we're applying the technology to help musicians."
 venue:
   title: "Venue"
   adr: "1100 Notre-Dame W, Montreal, QC H3C 1K3"
