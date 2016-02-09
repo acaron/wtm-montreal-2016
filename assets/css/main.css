@@ -6125,7 +6125,13 @@ section {
   section.section--theme-3 {
     background-image: url("/assets/images/bg-section-1.png");
     background-position: top right;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    .row{
+        a{
+          color : #000000;
+        }
+    }
+  }
   section.section--theme-4 {
     background-image: url("/assets/images/bg-buy-tickets.jpg");
     background-size: cover;
