@@ -71,9 +71,16 @@ speakers_collection:
     bio: "En quelques mots, je suis une analyste qui compile des informations sur le marché avec des données sur le Web et sur les médiaux sociaux pour améliorer l'avantage concurrentiel pour les startups et les entreprises IT. D'abord stagiaire à Amadeus IT group, qui est une compagnie logicielle dans le monde entier, je deviens progressivement une stratège marketing pour plusieurs start-ups Web au Maroc, en France et au Québec pour les aider dans la compréhension de leur marché et afin de déployer leur stratégie digitale. Je détiens un diplôme de maîtrise en Competitive Intelligence & Strategic Communication de l'Université de Poitiers (France) et j’ai été co-conférencière lors de la 7ème éditition de  Competitive Intelligence International Conference, en Mars à 2015."
   - key: mahtab-ghamsari
     name: Mahtab Ghamsari
-    title: Big Data Développeur chez Bandsintown Group
+    title: Développeur de Big Data chez Bandsintown Group
     bio: "J’oeuvre en tant que recherchiste et développeuse dans le monde de la musique et de la technologie depuis quelques années. La musique est ma passion et j’ai eu le privilège de travailler comme ingénieure de données dans l’industrie de la musique dans la dernière année. Mon bagage professionnel musical est varié, passant du matériel informatique au web et aux données, mais ma passion pour la musique et les arts continuent de me guider dans cette direction. Lors de cette discussion, j’aimerais en premier lieu clarifier et démystifier le mot Big Data, en transformant ce buzz word en une notion plus compréhensible, puis en deuxième lieu expliquer comment nous pouvons appliquer cette technologie au profit des musiciens."
-
+  - key: alessia-bellisario
+    name: Alessia Bellisario
+    title: Développeur full-stack chez Breather
+    bio: "Bonjour ! Je suis Alessia, une développeuse full-stack chez Breather : un réseau de magnifiques espaces à louer que vous pouvez débarrer avec votre téléphone. J’ai étudié l’éthique et la philosophie politique à l’Université de Toronto, mais je développais sur le Web pour le plaisir et le profit depuis mon cours d’informatique en 7e année. Après avoir terminé mes études à l’Université de Toronto, je travaillais comme membre du personnel politique tout en effectuant du travail en tant que pigiste ce qui m’a fait réaliser que je voulais programmer à temps plein. J’ai participé à un camp d’entraînement Ruby on Rails à Toronto et travaillé pour quelques startups avant de décider de m’installer à Montréal pour joindre Breather il y a plus d’un an. Fait amusant : j’ai mangé un morceau du gâteau d'anniversaire de Rob Ford dans son bureau la semaine après que la nouvelle du « Crackgate » ait éclaté. L'ambiance était morose et le gâteau avait pour thème le football."
+  - key: inda-duminica
+    name: Inda Duminica
+    title: Responsable des ressources humaines chez BMC Software
+    bio: "Inda a navigué, en tête des ressources humaines, autant dans les eaux des startups technologiques que des grandes entreprises depuis les 10 dernières  années. Elle a eu l'occasion de vivre à travers des acquisitions, changement de culture organisationnelle, des moments difficiles et des moments de plaisir. Elle avait l'habitude de passer ses jours entourée par les développeurs Web, qui la retenaient sur une alimentation riche de très captivante « matière à réflexion »."
 venue:
   title: "Lieu"
   adr: "1100 Notre-Dame O, Montréal, QC H3C 1K3"

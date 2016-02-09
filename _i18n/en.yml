@@ -73,6 +73,14 @@ speakers_collection:
     name: Mahtab Ghamsari
     title: Big Data Developer at Bandsintown Group
     bio: "I have been a researcher and developer in the Music and Tech world for a few years now. I love music and have had the privilage of working as a Data Engineer in the Music Industry for the past year. My professional background is varied, from working in hardware to web and now to data but since I have a passion for music and the arts I try to focus my efforts in this direction. During this talk I would first like to take the word Big Data away from simply a buzz word and into a more understandable term and I would like to explain how we're applying the technology to help musicians."
+  - key: alessia-bellisario
+    name: Alessia Bellisario
+    title: Full-stack developer at Breather
+    bio: "Hi! I'm Alessia, a full-stack developer at Breather, a network of beautiful on-demand spaces you can unlock with your phone. I studied ethics and political philosophy at the University of Toronto but I've been making things on the web for fun and profit since 7th grade computers class. After graduating from U of T, while working as a political staffer and freelancing on the side, I realized I wanted to program full-time. I attended a ruby on rails bootcamp in Toronto, worked for a few startups and made the move to Montreal to join Breather over a year ago. Fun fact: I ate a piece of Rob Ford's birthday cake in his office the week after Crackgate broke. The mood was sullen and the cake was football-themed."
+  - key: inda-duminica
+    name: Inda Duminica
+    title: HR Manager at BMC Software
+    bio: "Inda has been navigating, as an HR leader, both the waters of IT start-ups and large global organizations for the past 10+ years. She has had the opportunity to live throughout acquisitions, change of organizational cultures, rough times and fun times. She used to spend her days surrounded by web developers, who kept her on a rich diet of very captivating \"food for thought\"."
 venue:
   title: "Venue"
   adr: "1100 Notre-Dame W, Montreal, QC H3C 1K3"

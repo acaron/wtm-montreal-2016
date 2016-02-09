@@ -61,7 +61,7 @@
       {% endfor %}
     </div>
 
-   <div class="row">
+    <div class="row">
       {% for speaker in site.langs[site.lang]['speakers_collection'] offset: 8 limit: 4 %}
         <div class="col-sm-3 text-center card">
           {% capture image_path %}/assets/images/speakers/{{ speaker.key }}.jpg{% endcapture %}
@@ -78,7 +78,7 @@
       {% endfor %}
     </div>
 
-    <div class="row hidden-xs">
+    <div class="row hidden-xs margin-bottom">
       {% for speaker in site.langs[site.lang]['speakers_collection'] offset: 8 limit: 4 %}
         <div class="col-sm-3 text-center card">
           <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#speakers-{{ speaker.key }}">
@@ -86,6 +86,34 @@
           </button>
         </div>
       {% endfor %}
+    </div>
+
+    <div class="row">
+        {% for speaker in site.langs[site.lang]['speakers_collection'] offset: 12 limit: 4 %}
+          <div class="col-sm-3 text-center card">
+            {% capture image_path %}/assets/images/speakers/{{ speaker.key }}.jpg{% endcapture %}
+            <img src="{{ image_path | prepend: site.baseurl_root }}" class="img-circle" width="150" height="150" alt="{{ speaker.name }}">
+
+            <h3>{{ speaker.name }}</h3>
+
+            <h4>{{ speaker.title }}</h4>
+
+            <button type="button" class="btn btn-primary btn-lg visible-xs center-block" data-toggle="modal" data-target="#speakers-{{ speaker.key }}">
+              {% t speakers.learn_more %}
+            </button>
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="row hidden-xs">
+        {% for speaker in site.langs[site.lang]['speakers_collection'] offset: 12 limit: 4 %}
+          <div class="col-sm-3 text-center card">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#speakers-{{ speaker.key }}">
+              {% t speakers.learn_more %}
+            </button>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 
