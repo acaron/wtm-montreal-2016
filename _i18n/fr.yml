@@ -102,11 +102,11 @@ sponsors:
   bronze: Bronze
   desc_1: "Vous voulez être commanditaire ? Regardez la "
   desc_2: proposition de commandite
-  gdg: "sont pour les développeurs qui sont intéressés à développeur de la technologie de Google; tout de l'Android, Chrome, Drive, et les plates-formes Google Cloud, aux API de produits comme l'API de Cast, l'API Google Maps, et YouTube API."
+  gd: "sont pour les développeurs qui sont intéressés à développeur de la technologie de Google; tout de l'Android, Chrome, Drive, et les plates-formes Google Cloud, aux API de produits comme l'API de Cast, l'API Google Maps, et YouTube API."
 tickets:
-  text_1: Les billets sont en vente à partir du 8 
+  text_1: "Les billets sont en vente jusqu'au 1"
   text_sup: 
-  text_2: " février, 2016. 18+ seulement."
+  text_2: " mars, 2016. 18+ seulement."
 subscription:
   title: Abonnez-vous à notre liste de diffusion
   text: Nous vous tiendrons au courant des dernières nouvelles !
