@@ -6073,9 +6073,12 @@ section {
     z-index: 1; }
     section .container.container--600 {
       max-width: 600px; }
+  section h4[class*="sponsors-"] {
+    text-transform: uppercase; }
   section h4.sponsors-platinum {
-    text-transform: uppercase;
     color: #A0B8C7; }
+  section h4.sponsors-silver {
+    color: #A5A5A5; }
   section h2 {
     text-align: center; }
     section h2:after {
