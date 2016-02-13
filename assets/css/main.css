@@ -6162,8 +6162,12 @@ section {
   padding: 75px 0; }
   .site-footer .container.container--600 {
     max-width: 600px; }
-  .site-footer a.social:hover {
-    text-decoration: none; }
+  .site-footer a.social {
+    width: 40px;
+    text-align: center;
+    display: inline-block; }
+    .site-footer a.social:hover {
+      text-decoration: none; }
 
 .btn {
   border-width: 2px;
