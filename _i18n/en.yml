@@ -81,6 +81,10 @@ speakers_collection:
     name: Inda Duminica
     title: HR Manager at BMC Software
     bio: "Inda has been navigating, as an HR leader, both the waters of IT start-ups and large global organizations for the past 10+ years. She has had the opportunity to live throughout acquisitions, change of organizational cultures, rough times and fun times. She used to spend her days surrounded by web developers, who kept her on a rich diet of very captivating \"food for thought\"."
+  - key: necmiye-genc
+    name: Necmiye Genc
+    title: Lead Security Architect, SITA and PhD Student at ETS
+    bio: "Necmiye Genc-Nayebi works as Lead Security Architect in SITA, Montreal and she has expertise on Digital Forensics, Threat Intelligence, Distributed Network Architecture, Virtualization and Integration Concepts (EAI). She has hands on experience on software application development, architecture and testing. Embedded, Mobile and Secure Software Development, Algorithm Design and Implementation are some of her major competencies. Currently, she is pursuing her PHD degree in École de technologie supérieure (ÉTS), Montreal in the fields of Data and Text Mining, Spam Review Analysis and Machine Learning."
 venue:
   title: "Venue"
   adr: "1100 Notre-Dame W, Montreal, QC H3C 1K3"

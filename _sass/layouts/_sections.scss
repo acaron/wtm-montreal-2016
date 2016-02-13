@@ -14,9 +14,16 @@ section {
   }
 
   h4 {
-    &.sponsors-platinum {
+    &[class*="sponsors-"] {
       text-transform: uppercase;
+    }
+
+    &.sponsors-platinum {
       color: #A0B8C7;
+    }
+
+    &.sponsors-silver {
+      color: #A5A5A5;
     }
   }
 

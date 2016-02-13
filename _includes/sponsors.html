@@ -1,39 +1,50 @@
 <section id="sponsors" class="section section--theme-1">
-    <div class="container text-center">
-        <h2>{% t sponsors.title %}</h2>
+  <div class="container text-center">
+    <h2>{% t sponsors.title %}</h2>
 
-        {% capture link_proposal %}/assets/files/sponsorship-proposal-{% t global.locale %}.pdf{% endcapture %}
-        <h3>{% t sponsors.desc_1 %}<a href="{{ link_proposal | prepend: site.baseurl_root }}">{% t sponsors.desc_2 %}</a>.</h3>
+    {% capture link_proposal %}/assets/files/sponsorship-proposal-{% t global.locale %}.pdf{% endcapture %}
+    <h3>{% t sponsors.desc_1 %}<a href="{{ link_proposal | prepend: site.baseurl_root }}">{% t sponsors.desc_2 %}</a>.</h3>
 
-        <h4 class="sponsors-platinum"><strong>{% t sponsors.platinum %}</strong></h4>
+    <h4 class="sponsors-platinum"><strong>{% t sponsors.platinum %}</strong></h4>
 
-        <div class="row" >
-            <a  href="http://www.etsmtl.ca/" target="_blank">
-                <div class="col-sm-4 text-center card">
-                    <img src="/assets/images/sponsors/logo-ets.png" alt="École de technologie supérieure">
+    <div class="row">
+      <a href="http://www.etsmtl.ca/" target="_blank">
+        <div class="col-sm-4 text-center card">
+          <img src="/assets/images/sponsors/logo-ets.png" alt="École de technologie supérieure">
 
-                    <h3>École de technologie supérieure</h3>
+          <h3>École de technologie supérieure</h3>
 
-                    <p>
-                       {% t venue.desc %}
-                    </p>
-                </div>
-            </a>
-
-            <a  href="https://developers.google.com/" target="_blank">
-                <div class="col-sm-4 text-center card">
-                    <img src="/assets/images/sponsors/logo-gd.png" alt="Google Developers">
-                    <h3>Google Developers</h3>
-                </div>
-            </a>
-
-            <a  href="https://www.cgi.com/" target="_blank">
-                <div class="col-sm-4 text-center card">
-                    <img src="/assets/images/sponsors/logo-cgi.png" alt="CGI">
-
-                    <h3>CGI</h3>
-                </div>
-            </a>
+          <p>
+             {% t venue.desc %}
+          </p>
         </div>
+      </a>
+
+      <a href="https://developers.google.com/" target="_blank">
+        <div class="col-sm-4 text-center card">
+          <img src="/assets/images/sponsors/logo-gd.png" alt="Google Developers">
+          <h3>Google Developers</h3>
+        </div>
+      </a>
+
+      <a href="https://www.cgi.com/" target="_blank">
+        <div class="col-sm-4 text-center card">
+          <img src="/assets/images/sponsors/logo-cgi.png" alt="CGI">
+
+          <h3>CGI</h3>
+        </div>
+      </a>
     </div>
+
+    <h4 class="sponsors-silver"><strong>Argent</strong></h4>
+
+    <div class="row" >
+      <a href="http://www.equisoft.com/" target="_blank">
+        <div class="col-sm-offset-0 text-center card">
+          <img src="/assets/images/sponsors/logo-equisoft.png" width="150" alt="EquiSoft">
+          <h3>EquiSoft</h3>
+        </div>
+      </a>
+    </div>    
+  </div>
 </section>
