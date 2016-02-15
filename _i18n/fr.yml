@@ -3,7 +3,7 @@ global:
   french: Français
   locale: fr
   title: "Women Techmakers 2016 : À notre tour de mener - propulsé par GDG Android Montréal"
-  description: Women Techmakers est un programme créé par Google afin de célébrer la Journée internationale de la femme et de souligner le talent des femmes dans le milieu de l’informatique. Cette année, nous avons décidé d'organiser la première édition à Montréal.
+  description: "Women Techmakers est un programme créé par Google afin de célébrer la Journée internationans le de la femme et de souligner le talent des femmes dans le milieu de l’informatique. Cette année, nous avodécidé d'organiser la première édition à Montréal."
 index:
   title: "Women Techmakers 2016 : À notre tour de mener - propulsé par GDG Android Montréal"
   coming: À venir
@@ -64,7 +64,7 @@ speakers_collection:
   - key: roberta-voulon
     name: Roberta Voulon 
     title: "Fondatrice de Les Pitonneux"
-    bio: "Je suis une geek de nature qui vit en lignes de commande depuis 1984. Généraliste de nature, je suis une amateure professionelle de tout ce qui touche à la technologie. Suite à mon emploi prédécent chez Ubisoft, je suis maintenant une développeuse débutante iOS, avec comme mission d’aider à combler le déficit de compétences en technologie en réduisant l'écart de diversité. J’ai fondé Les Pitonneux, un incubateur de talents à Montréal pour les personnes apprenant à coder en ligne, et je suis également une coach / mentor pour le défi Technovation, aidant présentement une équipe de jeunes filles du secondaire à  développer leur première application iOS en Swift."
+    bio: "Je suis une geek de nature qui vit en lignes de commande depuis 1984. Généraliste de nature, je suis une amateure professionelle de tout ce qui touche à la technologie. Suite à mon emploi prédécent chez Ubisoft, je suis maintenant une développeuse débutante iOS, avec comme mission d’aider à combler le déficit de compétences en technologie en réduisant l'écart de diversité. J’ai fondé Les Pitonneux, un incubateur de talents à Montréal pour les personnes apprenant à coder en ligne, et je suis également une coach / mentor pour le défi Technovation, aidant présentement une équipe de jeunes filles du secondaire à  développer leur première application iOS en Swift. (Crédit photo: YM Ruzilo)"
   - key: corelia-kostovic
     name: "Corélia Kostovic"
     title: Stratège numérique chez CleverToday
