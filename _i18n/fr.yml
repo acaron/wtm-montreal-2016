@@ -2,10 +2,10 @@ global:
   english: English
   french: Français
   locale: fr
-  title: "Women Techmakers 2016 : À notre tour de mener - propulsé par GDG Android Montréal"
-  description: "Women Techmakers est un programme créé par Google afin de célébrer la Journée internationans le de la femme et de souligner le talent des femmes dans le milieu de l’informatique. Cette année, nous avodécidé d'organiser la première édition à Montréal."
+  title: "Women Techmakers propulsé par GDG Android Montréal"
+  description: "Women Techmakers est un programme créé par Google afin de célébrer la Journée internationale de la femme et de souligner le talent des femmes dans le milieu de l’informatique. En 2016, nous avons décidé d'organiser la première édition à Montréal sous le thème : À notre tour de mener."
 index:
-  title: "Women Techmakers 2016 : À notre tour de mener - propulsé par GDG Android Montréal"
+  title: "Women Techmakers propulsé par GDG Android Montréal"
   coming: À venir
 header:
   tickets: Acheter des billets
@@ -106,6 +106,7 @@ sponsors:
   bronze: Bronze
   desc_1: "Vous voulez être commanditaire ? Regardez la "
   desc_2: proposition de commandite
+  cgi: ""
 tickets:
   text_1: "Les billets sont en vente jusqu'au 1"
   text_sup: 

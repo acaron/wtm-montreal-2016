@@ -4,7 +4,7 @@ exclude_from_localizations: ['assets']
 timezone: America/Montreal
 
 title: global.title
-email: info@wtm-montreal.com
+email: "info@wtm-montreal.com"
 description: global.description
 baseurl: ''
 url: 'http://www.wtm-montreal.com'

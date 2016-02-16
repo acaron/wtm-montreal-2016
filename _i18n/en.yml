@@ -2,10 +2,10 @@ global:
   english: English
   french: Français
   locale: en
-  title: "Women Techmakers 2016: Our Time To Lead - powered by GDG Android Montreal"
-  description: Women Techmakers is a program created by Google to celebrate International Women's Day and to highlight the talent of women in technology. This year, we decided to organize the first edition in Montreal.
+  title: "Women Techmakers powered by GDG Android Montreal"
+  description: "Women Techmakers is a program created by Google to celebrate International Women's Day and to highlight the talent of women in technology. In 2016, we decided to organize the first edition in Montreal under the theme: Our Time To Lead."
 index:
-  title: "Women Techmakers 2016: Our Time To Lead - powered by GDG Android Montreal"
+  title: "Women Techmakers powered by GDG Android Montreal"
   coming: Coming soon
 header:
   tickets: Buy Tickets
@@ -106,6 +106,7 @@ sponsors:
   bronze: Bronze
   desc_1: "Want to be a sponsor? Check out our "
   desc_2: sponsorship proposal
+  cgi: "CGI is made of passionate and innovative people who create new products and solutions for its international clients. Our high-end mobility team won major hack-a-thons and is involved in major global projects for clients . CGI's \"Ninjas\" are specialised in iOS and Android development, and work with the Agile methodology in a constant spirit of innovation."
 tickets:
   text_1: Tickets are on sale until March 1
   text_sup: st
