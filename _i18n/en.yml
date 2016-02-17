@@ -85,6 +85,10 @@ speakers_collection:
     name: Necmiye Genc
     title: Lead Security Architect, SITA and PhD Student at ETS
     bio: "Necmiye Genc-Nayebi works as Lead Security Architect in SITA, Montreal and she has expertise on Digital Forensics, Threat Intelligence, Distributed Network Architecture, Virtualization and Integration Concepts (EAI). She has hands on experience on software application development, architecture and testing. Embedded, Mobile and Secure Software Development, Algorithm Design and Implementation are some of her major competencies. Currently, she is pursuing her PHD degree in École de technologie supérieure (ÉTS), Montreal in the fields of Data and Text Mining, Spam Review Analysis and Machine Learning."
+  - key: ghina-besbes
+    name: Ghina Besbes
+    title: Advisor in analysis and control management
+    bio: "Ghina Besbes holds a bachelor’s degree in Computer Science (2007), a master from Laval University in Computer Science (2010) and a graduate diploma in management of engineering projects from the École de technologie supérieure, Université du Québec (december 2015). Ghina also holds the following certifications: Professional Scrum Master I (PSM1) and Lean Manager - Yellow Belt. She has eight years of experience in the field of information technology. Ghina has gained work experience with major organizations such as: the Ville de Montréal, the Régie d’assurance maladie du Québec, the Commission de la santé et de la sécurité du travail and the Ministère de la Santé et des Services sociaux du Québec. Her main specialties are: predictive modeling, natural language processing, human-machine interaction, functional analysis, business analysis, modeling business processes, change management and projects management. For over three years, Ghina worked as a business analyst and change management officer for the Ville de Montréal."
 venue:
   title: "Venue"
   adr: "1100 Notre-Dame W, Montreal, QC H3C 1K3"
