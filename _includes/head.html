@@ -40,7 +40,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl_root }}">
     {% if site.lang == "fr" %}
         {% capture link_en %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-        <a class="external" href="{{ link_en }}"><span class="hidden-xs">{% t global.english %}</span><span class="visible-xs">EN</span></a>
         <link rel="alternate" hreflang="en" href="{{ link_en }}">
     {% else if site.lang == "en" %}
         {% capture link_fr %}{{ site.baseurl_root }}fr{{ page.url }}{% endcapture %}
