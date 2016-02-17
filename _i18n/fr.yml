@@ -89,6 +89,10 @@ speakers_collection:
     name: Ghina Besbes
     title: "Conseillère en analyse et contrôle de gestion à la Ville de Montréal"
     bio: "Ghina Besbes détient un baccalauréat en informatique (2007), une maîtrise en informatique de l’Université Laval (2010) et un diplôme d'études supérieures spécialisées en gestion de projets d’ingénierie de l'École de technologie supérieure, Université du Québec (Décembre 2015). Ghina détient également les certifications suivantes: Professional Scrum Master I (PSM1) et Lean Manager - Ceinture Jaune. Elle cumule huit années d’expérience dans le domaine des technologies de l’information. Ghina a acquis son expérience professionnelle auprès d’organisations d’envergure telle que : la Ville de Montréal, la Régie d’assurance maladie du Québec, la Commission de la santé et de la sécurité du travail et le Ministère de la Santé et des Services sociaux du Québec. Ses principales spécialités sont: la modélisation prédictive, le traitement du langage naturel, l'interaction homme-machine, l'analyse fonctionnelle, l'analyse d'affaire, la modélisation de processus d'affaire, la gestion du changement et la gestion de projets. Depuis plus de trois ans, Ghina oeuvre en tant que analyste d’affaire et agent de gestion de changement à la Ville de Montréal."
+  - key: gayane-petrosyan
+    name: Gayane Petrosyan
+    title: Développeur logiciel chez Google
+    bio: "Gayane is a chrome developer at Google Montreal who prior to that spent 3 amazing months at Recurse Center. Before that she did her Master in Computer Science at McGill University right after moving from magical land of Armenia to winter kingdom of Quebec."
 venue:
   title: "Lieu"
   adr: "1100 Notre-Dame O, Montréal, QC H3C 1K3"
