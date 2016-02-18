@@ -2,11 +2,6 @@
   <div class="container text-center">
     <h2>{% t speakers.title %}</h2>
 
-    {% capture link_call %}/assets/files/call-for-papers-{% t global.locale %}.pdf{% endcapture %}
-    <h3>{% t speakers.be_speaker %} <a href="{{ link_call | prepend: site.baseurl_root }}">{% t speakers.be_speaker_2 %}</a>.</h3>
-
-    <p>{% t speakers.text_desc %}</p>
-
     <div class="row">
       {% for speaker in site.langs[site.lang]['speakers_collection'] limit: 4 %}
         <div class="col-sm-3 text-center card">
