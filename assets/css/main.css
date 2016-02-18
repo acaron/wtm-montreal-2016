@@ -6175,6 +6175,9 @@ section {
   border-width: 2px;
   border-radius: 55px;
   transition: background 0.5s ease; }
+  .btn.btn-x-lg {
+    padding: 15px 20px;
+    font-size: 20px; }
   .btn.btn-primary {
     background: none;
     color: #27B9A2; }
