@@ -6079,6 +6079,8 @@ section {
     text-transform: uppercase; }
   section h4.sponsors-platinum {
     color: #A0B8C7; }
+  section h4.sponsors-gold {
+    color: #D4AF37; }
   section h4.sponsors-silver {
     color: #A5A5A5; }
   section h2 {
@@ -6175,6 +6177,9 @@ section {
   border-width: 2px;
   border-radius: 55px;
   transition: background 0.5s ease; }
+  .btn.btn-x-lg {
+    padding: 15px 20px;
+    font-size: 20px; }
   .btn.btn-primary {
     background: none;
     color: #27B9A2; }
