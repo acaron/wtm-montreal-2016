@@ -1,0 +1,28 @@
+# Site settings
+languages: ['en', 'fr']
+exclude_from_localizations: ['assets']
+timezone: America/Montreal
+
+title: global.title
+email: "info@wtm-montreal.com"
+description: global.description
+baseurl: ''
+url: 'http://www.wtmmontreal.com'
+redirect_from: 'http://www.wtm-montreal.com'
+
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-72837204-1'
+
+# Build settings
+permalink: pretty
+markdown: kramdown
+exclude: ['LICENSE']
+
+gems:
+  - jekyll-redirect-from
+
+
+
+
